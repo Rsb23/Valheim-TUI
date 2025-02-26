@@ -175,3 +175,6 @@ cython_debug/
 
 # Vscode configuration folder
 .vscode
+
+# Custom Tutorial Folder
+/src/tutorials/
