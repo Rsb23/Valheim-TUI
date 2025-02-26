@@ -4,8 +4,19 @@ import re
 class InterpretData():
     def __init__(self, pathToData: str) -> None:
         self.filePath = pathToData
+
+        # global variables that will remain static, the dynamic ones are given individual functions so they can be called more often because they change the only the most recent one is the true one, no point in storing variables for that
+        self.loaded_world_name = ""
+        self.server_steam_ID = ""
+        self.valheim_version = ""
+        self.network_version = ""
+        self.join_code = ""
+        self.external_ip_port = ""
     
-    def get_data(self) -> list:
+    def get_start_data(self) -> list:
+        """
+        
+        """
         with open(self.filePath, "r") as file:
             fileLines = file.readlines()
             file.close()
@@ -38,9 +49,10 @@ class InterpretData():
 
             # main regex patterns to find
             match_server_start = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: Session \"Thy Quaint Little Village\" with")
+            
             match_new_player = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: PlayFab socket with remote ID playfab")
             match_new_character = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: Got character ZDOID from")
-            match_connections = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]:  Connections")
+            
             match_world_saved = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: World saved")
             
             if match_world_name.match(line):
@@ -93,8 +105,28 @@ class InterpretData():
             elif match_world_saved.match(line):
                 world_save_timestamp = match_timestamp.match(line).group()
                 print(f"World Last Saved: {world_save_timestamp}")
+        
+        def get_player_count(self) -> int:
+            player_count = 0
+
+            match_connections = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]:  Connections")
+            match_connections_count = re.compile(" [0-10] ")
+            
+            with open(self.filePath, "r") as file:
+                fileLines = file.readlines()
+                file.close()
+
+            for line in fileLines:
+                if match_connections.match(line):
+                    player_count = int(match_connections_count.search(line).group().strip())
+            
+            return player_count
+
+
+
             
 
 
 _InterpretData = InterpretData("/home/r34_runna/Documents/python/Valheim-TUI/samplelog.txt")
 _InterpretData.get_data()
+print(_InterpretData.get_player_count())
