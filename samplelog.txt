@@ -1,0 +1,1694 @@
+Starting server PRESS CTRL-C to exit
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=4194304"
+    "memorysetup-bucket-allocator-block-count=1"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=4194304"
+    "memorysetup-profiler-bucket-allocator-block-count=1"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=4194304"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Mono path[0] = '/home/karamello/Desktop/valheim/valheim_server_Data/Managed'
+Mono config path = '/home/karamello/Desktop/valheim/valheim_server_Data/MonoBleedingEdge/etc'
+Preloaded 'libDiskSpacePlugin.so'
+Preloaded 'libparty.so'
+Preloaded 'libsteam_api.so'
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
+[Subsystems] Discovering subsystems at path /home/karamello/Desktop/valheim/valheim_server_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.062 seconds
+- Finished resetting the current domain, in  0.001 seconds
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+There is no texture data available to upload.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 0.613771 ms
+Privilege Multiplayer is not known on this platform. Privilege therefore is granted without check...
+Privilege UserGeneratedContent is not known on this platform. Privilege therefore is granted without check...
+Privilege CrossPlay is not known on this platform. Privilege therefore is granted without check...
+02/25/2025 01:58:31: Set background loading budget to Low
+ERROR: Shader TextMeshPro/Mobile/Distance Field shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'TextMeshPro/Distance Field' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader TextMeshPro/Distance Field shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'TextMeshPro/Distance Field' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Unloading 5 Unused Serialized files (Serialized files now loaded: 9)
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 0.130720 ms
+ERROR: Shader TextMeshPro/Mobile/Distance Field shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+02/25/2025 01:58:31: Fetching PlatformPrefs 'GuiScale' before loading defaults
+02/25/2025 01:58:31: Fetching PlatformPrefs 'GuiScale' before loading defaults
+Unloading 173 unused Assets to reduce memory usage. Loaded Objects now: 2254.
+Total: 1.305640 ms (FindLiveObjects: 0.082150 ms CreateObjectMapping: 0.067800 ms MarkObjects: 1.076440 ms  DeleteObjects: 0.079060 ms)
+
+02/25/2025 01:58:31: Starting to load scene:start.unity (169d7618616154c03be07e9ad3af5893)
+02/25/2025 01:58:31: Set background loading budget to Normal
+02/25/2025 01:58:35: Set background loading budget to High
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Couldn't create a Convex Mesh from source mesh "default" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+Couldn't create a Convex Mesh from source mesh "default" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Unloading 2 Unused Serialized files (Serialized files now loaded: 1296)
+ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/Grass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Grass shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Grass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Unlit/Invis shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard (Specular setup)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard (Specular setup) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard (Specular setup)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Unlit/Lighting shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Flow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Lux Lit Particles/ Bumped shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Unlit2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Particles/Standard Unlit2 shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Unlit2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/Player' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Player shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Player' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/SkyObject' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/SkyObject shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/SkyObject' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/LitParticles' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/LitParticles shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/LitParticles' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Particles/Standard Surface2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Particles/Standard Surface2 shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Surface2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/GuiScroll shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Heightmap' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Heightmap shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Heightmap' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Unlit/Color shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Vegetation' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Vegetation shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Vegetation' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/ShadowBlob' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/ShadowBlob shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/ShadowBlob' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/AlphaParticle shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/RadialSegementShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/StaticRock shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/FlowOpaque shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Bonemass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Bonemass shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Bonemass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Particles/Standard Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Particles/Standard Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/ParticleDecal shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Yggdrasil_root' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Yggdrasil_root shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Yggdrasil_root' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/Blob' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Blob shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Blob' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader TextMeshPro/Distance Field (Surface) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Unlit/BeaconBeam shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Lux Lit Particles/ Tess Bumped shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Creature shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Clouds' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Clouds shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Clouds' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Tar shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader UI/Heat Distort shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Particle (Unlit) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Mesh Flipbook Particle shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Water' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Water shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Water' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Gradient Mapped Particle (Unlit) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended Premultiply shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/Rug shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/LitGui shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Unlit/WeaponGlow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/WaterMask' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/WaterMask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/WaterMask' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/Trilinearmap' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Trilinearmap shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Trilinearmap' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Decal shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/Particles/Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard TwoSided' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard TwoSided shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard TwoSided' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/Distortion' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Distortion shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Distortion' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Autodesk Interactive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Piece shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+02/25/2025 01:58:42: Set background loading budget to Low
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 5.738943 ms
+Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
+HDR Render Texture not supported, disabling HDR on reflection probe.
+02/25/2025 01:58:42: Missing audio clip in music respawn
+02/25/2025 01:58:42: Get create world Tester
+now checking https://ipv4.myip.wtf/text
+02/25/2025 01:58:42: Using environment steamid 892970
+02/25/2025 01:58:42: Using steam APPID:892970
+02/25/2025 01:58:42: Server ID 90071992547409920
+02/25/2025 01:58:42: Authentication:k_ESteamNetworkingAvailability_Waiting
+02/25/2025 01:58:42: Steam game server initialized
+02/25/2025 01:58:42: Using default prefs
+02/25/2025 01:58:42: Valheim version: l-0.219.16 (network version 32)
+Trying to set graphic mode to 'Custom'
+Graphic mode 'Custom' is not or no longer supported. Fallback to default mode for platform...
+Graphic mode 'Custom' applied!
+02/25/2025 01:58:42: Worldgenerator version setup:2
+02/25/2025 01:58:42: Console: Valheim l-0.219.16 (network version 32)
+02/25/2025 01:58:42: Console: 
+02/25/2025 01:58:42: Console: type "help" - for commands
+02/25/2025 01:58:42: Console: 
+02/25/2025 01:58:42: Render threading mode:SingleThreaded
+ERROR: Shader UI/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+02/25/2025 01:58:42: Builder started
+Found ipv4 address to be 68.36.250.214
+02/25/2025 01:58:42: Loaded localization file #0 - 'localization' language: 'English'
+02/25/2025 01:58:42: Loaded localization file #1 - 'localization_extra' language: 'English'
+02/25/2025 01:58:42: Loaded localization file #2 - 'heightmap_message' language: 'English'
+02/25/2025 01:58:42: Loaded localization file #3 - 'localization_witch' language: 'English'
+02/25/2025 01:58:42: Loaded localization file #4 - 'localization_emotes' language: 'English'
+02/25/2025 01:58:42: Loaded localization file #5 - 'localization_ashlands' language: 'English'
+02/25/2025 01:58:42: Loaded localization file #6 - 'localization_captions' language: 'English'
+02/25/2025 01:58:42: Sending PlayFab login request (attempt 1)
+02/25/2025 01:58:42: Login postponed until ID has been set.
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+02/25/2025 01:58:42: Starting music menu
+WARNING: Shader Unsupported: 'TextMeshPro/Distance Field' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader TextMeshPro/Distance Field shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'TextMeshPro/Distance Field' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader TextMeshPro/Sprite shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Unloading 87582 unused Assets to reduce memory usage. Loaded Objects now: 201501.
+Total: 94.078585 ms (FindLiveObjects: 12.582306 ms CreateObjectMapping: 19.437480 ms MarkObjects: 42.595910 ms  DeleteObjects: 19.462349 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ERROR: Shader UI/Lava Indicator shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader UI/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'UI/Unlit/Transparent' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'UI/Unlit/Transparent' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/UI_BGBlur' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/UI_BGBlur shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/UI_BGBlur' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/icon shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/WaterBottom' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/WaterBottom shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/WaterBottom' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/mapshader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Yggdrasil' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/Yggdrasil shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/Yggdrasil' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Unlit/DepthWrite shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Custom/UI/CaptionArrow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Hidden/RadialCutoutShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 1297)
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 12.911146 ms
+HDR Render Texture not supported, disabling HDR on reflection probe.
+HDR Render Texture not supported, disabling HDR on reflection probe.
+02/25/2025 01:58:43: Audioman already exist, destroying self
+src/clientdll/cminterface.cpp (2124) : !BLoggedOn()
+02/25/2025 01:58:43: Using default prefs
+02/25/2025 01:58:43: Console: Valheim l-0.219.16 (network version 32)
+02/25/2025 01:58:43: Console: 
+02/25/2025 01:58:43: Console: type "help" - for commands
+02/25/2025 01:58:43: Console: 
+02/25/2025 01:58:43: isModded: False
+02/25/2025 01:58:43: Zonesystem Awake 887110
+02/25/2025 01:58:43: DungeonDB Awake 887110
+02/25/2025 01:58:43: Worldgenerator version setup:2
+ArgumentNullException: Value cannot be null.
+Parameter name: shader
+  at (wrapper managed-to-native) UnityEngine.Material.CreateWithShader(UnityEngine.Material,UnityEngine.Shader)
+  at UnityEngine.Material..ctor (UnityEngine.Shader shader) [0x00008] in <bbfcdb8e91a44ae79d53e845fd06b4b5>:0 
+  at ShieldDomeImageEffect.Awake () [0x0000b] in <701be5c6616d4527b8e0e741eb676141>:0 
+
+02/25/2025 01:58:45: Console: /w [text] - Whisper
+02/25/2025 01:58:45: Console: /s [text] - Shout
+02/25/2025 01:58:45: Console: /die - Kill yourself
+02/25/2025 01:58:45: Console: /resetspawn - Reset spawn point
+02/25/2025 01:58:45: Console: /[emote]
+02/25/2025 01:58:45: Console: Emotes: wave, sit, challenge, cheer, nonono, thumbsup, point, blowkiss, bow, cower, cry, despair, flex, comehere, headbang, kneel, laugh, roar, shrug, dance, relax, toast, rest
+02/25/2025 01:58:45: Console: 
+Unloading 367 unused Assets to reduce memory usage. Loaded Objects now: 200320.
+Total: 58.360658 ms (FindLiveObjects: 7.280203 ms CreateObjectMapping: 9.610675 ms MarkObjects: 41.064839 ms  DeleteObjects: 0.404531 ms)
+
+02/25/2025 01:58:45: Zonesystem Start 887110
+02/25/2025 01:58:45: Added 3 locations, 0 vegetations, 0 environments, 0 biome env-setups, 0 clutter  from main
+02/25/2025 01:58:45: Added 1 locations, 0 vegetations, 2 environments, 0 biome env-setups, 0 clutter  from main
+02/25/2025 01:58:45: Added 27 locations, 25 vegetations, 5 environments, 1 biome env-setups, 3 clutter  from main
+02/25/2025 01:58:45: Added 4 locations, 0 vegetations, 1 environments, 0 biome env-setups, 0 clutter  from main
+02/25/2025 01:58:45: Added 25 locations, 33 vegetations, 8 environments, 2 biome env-setups, 2 clutter  from main
+02/25/2025 01:58:45: DungeonDB Start 887110
+02/25/2025 01:58:45: ZRpc timeout set to 30s 
+02/25/2025 01:58:45: ZNET START
+02/25/2025 01:58:45: Load world: Tester (Tester)
+02/25/2025 01:58:45: Loading 385722 zdos, my sessionID: 2231121132, data version: 35
+02/25/2025 01:58:45: Loading in ZDOs
+02/25/2025 01:58:46: Adding to Dictionary
+02/25/2025 01:58:46: Adding to Sectors
+02/25/2025 01:58:46: Connecting Portals, Spawners & ZSyncTransforms
+ConnectPortals => Connected 5 portals.
+ConnectSpawners => Connected 194 spawners and 474 'done' spawners.
+02/25/2025 01:58:46: Loaded 11442 locations
+02/25/2025 01:58:46: Unloading unused assets
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+02/25/2025 01:58:46: Registering lobby
+02/25/2025 01:58:46: PlayFab custom ID set to "PlayFab_Thy Quaint Little Village_2456_c6764665cf684a7b9f9af12f152a734c"
+02/25/2025 01:58:46: Sending PlayFab login request (attempt 2)
+02/25/2025 01:58:46: Semaphore type: SemaphoreSlim
+02/25/2025 01:58:46: Opened PlayFab server
+The shader Hidden/Dof/DepthOfFieldHdr (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.DepthOfField) has been disabled as it's not supported on the current platform.
+The shader Hidden/SunShaftsComposite (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The shader Hidden/SimpleClear (UnityEngine.Shader) on effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) is not supported on this platform!
+The image effect Main Camera (UnityStandardAssets.ImageEffects.SunShafts) has been disabled as it's not supported on the current platform.
+Am I Host? True
+02/25/2025 01:58:46: Game server connected
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 200317.
+Total: 148.022800 ms (FindLiveObjects: 7.245493 ms CreateObjectMapping: 10.184015 ms MarkObjects: 130.383232 ms  DeleteObjects: 0.209410 ms)
+
+02/25/2025 01:58:47: PlayFab logged in as "PlayFab_Thy Quaint Little Village_2456_c6764665cf684a7b9f9af12f152a734c"
+02/25/2025 01:58:47: PlayFab local entity ID is D744ED1FBC92A191
+IPv4, returning 68.36.250.214:2456
+02/25/2025 01:58:47: New session server "Thy Quaint Little Village" that has join code , now 0 player(s)
+02/25/2025 01:58:47: Register PlayFab server "Thy Quaint Little Village" with IP 68.36.250.214:2456
+02/25/2025 01:58:47: Server 'Thy Quaint Little Village' begin PlayFab create and join network for server 
+02/25/2025 01:58:49: Joined PlayFab Party network with ID "c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ=="
+This is the serverIP used to register the server: 68.36.250.214:2456
+02/25/2025 01:58:49: Created PlayFab lobby with ID "d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509", ConnectionString "cv2:d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509|451107|kv1:HgD6LmrNyC3NA/zbjvBC1Roadbmnw9XBhlEWpfSnjD8=" and owned by "D744ED1FBC92A191"
+02/25/2025 01:58:49: Session "Thy Quaint Little Village" registered with join code 886564
+02/25/2025 01:58:50: Retry join-code check 99
+02/25/2025 01:58:51: Session "Thy Quaint Little Village" with join code 886564 and IP 68.36.250.214:2456 is active with 0 player(s)
+02/25/2025 02:05:47: Update PlayFab entity token
+02/25/2025 02:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 02:10:10: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 02:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 02:23:04: Update PlayFab entity token
+02/25/2025 02:23:06: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+Am I Host? True
+02/25/2025 02:28:42: Available space to current user: 215311888384. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 02:28:42: Sending message to save player profiles
+02/25/2025 02:28:42: PrepareSave: clone done in 74ms
+02/25/2025 02:28:43: PrepareSave: ZDOExtraData.PrepareSave done in 84 ms
+02/25/2025 02:28:43: World save writing starting
+02/25/2025 02:28:43: World save writing started
+02/25/2025 02:28:43: Saved 385722 ZDOs
+02/25/2025 02:28:44: World save writing finishing
+02/25/2025 02:28:44: World save writing finished
+02/25/2025 02:28:44: World saved ( 963.228ms )
+02/25/2025 02:28:44: Considering autobackup. World time: 1796.96, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 02:28:44: No autobackup needed yet...
+Am I Host? True
+02/25/2025 02:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 02:33:00: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 02:37:19: Update PlayFab entity token
+02/25/2025 02:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 02:46:58: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 02:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 02:56:03: Update PlayFab entity token
+02/25/2025 02:56:18: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+Am I Host? True
+02/25/2025 02:58:43: Available space to current user: 215310766080. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 02:58:43: Sending message to save player profiles
+02/25/2025 02:58:43: PrepareSave: clone done in 66ms
+02/25/2025 02:58:43: PrepareSave: ZDOExtraData.PrepareSave done in 82 ms
+02/25/2025 02:58:43: World save writing starting
+02/25/2025 02:58:43: World save writing started
+02/25/2025 02:58:44: Saved 385722 ZDOs
+02/25/2025 02:58:44: World save writing finishing
+02/25/2025 02:58:44: World save writing finished
+02/25/2025 02:58:44: World saved ( 946.126ms )
+02/25/2025 02:58:44: Considering autobackup. World time: 3597.36, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 02:58:44: Overwrite our newest autobackup since the second one isn't so old
+02/25/2025 02:58:44: Replacing backup file: Tester_backup_auto-20250225003954
+02/25/2025 02:58:44: Saving backup at: Tester_backup_auto-20250225025843
+02/25/2025 02:58:44: World auto backup saved ( 00:00:00.0186520ms )
+Am I Host? True
+02/25/2025 02:58:47: Unloading unused assets
+02/25/2025 02:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 147.960820 ms (FindLiveObjects: 7.629333 ms CreateObjectMapping: 14.920337 ms MarkObjects: 125.114570 ms  DeleteObjects: 0.295440 ms)
+
+02/25/2025 03:07:23: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 03:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 03:14:42: Update PlayFab entity token
+02/25/2025 03:17:57: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 03:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 03:27:34: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+Am I Host? True
+02/25/2025 03:28:43: Available space to current user: 215309688832. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 03:28:43: Sending message to save player profiles
+02/25/2025 03:28:43: PrepareSave: clone done in 70ms
+02/25/2025 03:28:43: PrepareSave: ZDOExtraData.PrepareSave done in 81 ms
+02/25/2025 03:28:43: World save writing starting
+02/25/2025 03:28:43: World save writing started
+02/25/2025 03:28:44: Saved 385722 ZDOs
+02/25/2025 03:28:44: World save writing finishing
+02/25/2025 03:28:44: World save writing finished
+02/25/2025 03:28:44: World saved ( 949.735ms )
+02/25/2025 03:28:44: Considering autobackup. World time: 5397.8, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 03:28:44: No autobackup needed yet...
+Am I Host? True
+02/25/2025 03:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 03:31:21: Update PlayFab entity token
+02/25/2025 03:37:36: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 03:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 03:46:57: Update PlayFab entity token
+02/25/2025 03:47:52: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 03:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 03:58:44: Available space to current user: 215308574720. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 03:58:44: Sending message to save player profiles
+02/25/2025 03:58:44: PrepareSave: clone done in 67ms
+02/25/2025 03:58:44: PrepareSave: ZDOExtraData.PrepareSave done in 79 ms
+02/25/2025 03:58:44: World save writing starting
+02/25/2025 03:58:44: World save writing started
+02/25/2025 03:58:45: Saved 385722 ZDOs
+02/25/2025 03:58:45: World save writing finishing
+02/25/2025 03:58:45: World save writing finished
+02/25/2025 03:58:45: World saved ( 958.737ms )
+02/25/2025 03:58:45: Considering autobackup. World time: 7198.24, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 03:58:45: No autobackup needed yet...
+Am I Host? True
+02/25/2025 03:58:47: Unloading unused assets
+02/25/2025 03:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 139.204547 ms (FindLiveObjects: 7.603254 ms CreateObjectMapping: 10.051685 ms MarkObjects: 121.267198 ms  DeleteObjects: 0.281880 ms)
+
+02/25/2025 04:00:52: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 04:03:58: Update PlayFab entity token
+02/25/2025 04:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 04:11:39: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 04:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 04:21:41: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 04:22:39: Update PlayFab entity token
+Am I Host? True
+02/25/2025 04:28:44: Available space to current user: 215307448320. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 04:28:44: Sending message to save player profiles
+02/25/2025 04:28:44: PrepareSave: clone done in 69ms
+02/25/2025 04:28:44: PrepareSave: ZDOExtraData.PrepareSave done in 82 ms
+02/25/2025 04:28:44: World save writing starting
+02/25/2025 04:28:44: World save writing started
+02/25/2025 04:28:45: Saved 385722 ZDOs
+02/25/2025 04:28:45: World save writing finishing
+02/25/2025 04:28:45: World save writing finished
+02/25/2025 04:28:45: World saved ( 944.746ms )
+02/25/2025 04:28:45: Considering autobackup. World time: 8998.68, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 04:28:45: No autobackup needed yet...
+Am I Host? True
+02/25/2025 04:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 04:31:31: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 04:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 04:40:25: Update PlayFab entity token
+02/25/2025 04:43:05: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 04:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 04:52:54: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 04:54:58: Update PlayFab entity token
+Am I Host? True
+02/25/2025 04:58:45: Available space to current user: 215306313728. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 04:58:45: Sending message to save player profiles
+02/25/2025 04:58:45: PrepareSave: clone done in 70ms
+02/25/2025 04:58:45: PrepareSave: ZDOExtraData.PrepareSave done in 81 ms
+02/25/2025 04:58:45: World save writing starting
+02/25/2025 04:58:45: World save writing started
+02/25/2025 04:58:46: Saved 385722 ZDOs
+02/25/2025 04:58:46: World save writing finishing
+02/25/2025 04:58:46: World save writing finished
+02/25/2025 04:58:46: World saved ( 950.407ms )
+02/25/2025 04:58:46: Considering autobackup. World time: 10799.12, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 04:58:46: Overwrite our newest autobackup since the second one isn't so old
+02/25/2025 04:58:46: Replacing backup file: Tester_backup_auto-20250225025843
+02/25/2025 04:58:46: Saving backup at: Tester_backup_auto-20250225045845
+02/25/2025 04:58:46: World auto backup saved ( 00:00:00.0154430ms )
+Am I Host? True
+02/25/2025 04:58:47: Unloading unused assets
+02/25/2025 04:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 139.414456 ms (FindLiveObjects: 7.614374 ms CreateObjectMapping: 10.171094 ms MarkObjects: 121.345098 ms  DeleteObjects: 0.283330 ms)
+
+02/25/2025 05:06:42: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 05:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 05:11:39: Update PlayFab entity token
+02/25/2025 05:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 05:20:40: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 05:28:15: Update PlayFab entity token
+Am I Host? True
+02/25/2025 05:28:45: Available space to current user: 215305211904. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 05:28:45: Sending message to save player profiles
+02/25/2025 05:28:45: PrepareSave: clone done in 71ms
+02/25/2025 05:28:45: PrepareSave: ZDOExtraData.PrepareSave done in 82 ms
+02/25/2025 05:28:45: World save writing starting
+02/25/2025 05:28:45: World save writing started
+02/25/2025 05:28:46: Saved 385722 ZDOs
+02/25/2025 05:28:46: World save writing finishing
+02/25/2025 05:28:46: World save writing finished
+02/25/2025 05:28:46: World saved ( 951.863ms )
+02/25/2025 05:28:46: Considering autobackup. World time: 12599.58, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 05:28:46: No autobackup needed yet...
+02/25/2025 05:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 05:33:17: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 05:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 05:44:04: Update PlayFab entity token
+02/25/2025 05:46:30: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 05:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 05:58:46: Available space to current user: 215304085504. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 05:58:46: Sending message to save player profiles
+02/25/2025 05:58:46: PrepareSave: clone done in 71ms
+02/25/2025 05:58:46: PrepareSave: ZDOExtraData.PrepareSave done in 83 ms
+02/25/2025 05:58:46: World save writing starting
+02/25/2025 05:58:46: World save writing started
+02/25/2025 05:58:47: Saved 385722 ZDOs
+02/25/2025 05:58:47: World save writing finishing
+02/25/2025 05:58:47: Unloading unused assets
+02/25/2025 05:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+02/25/2025 05:58:47: World save writing finished
+02/25/2025 05:58:47: World saved ( 966.277ms )
+02/25/2025 05:58:47: Considering autobackup. World time: 14400.02, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 05:58:47: No autobackup needed yet...
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 139.727336 ms (FindLiveObjects: 7.540913 ms CreateObjectMapping: 10.313065 ms MarkObjects: 121.595658 ms  DeleteObjects: 0.277210 ms)
+
+Am I Host? True
+02/25/2025 05:59:08: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 06:03:32: Update PlayFab entity token
+02/25/2025 06:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 06:11:43: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 06:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 06:22:23: Update PlayFab entity token
+02/25/2025 06:22:48: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+Am I Host? True
+02/25/2025 06:28:46: Available space to current user: 215302950912. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 06:28:46: Sending message to save player profiles
+02/25/2025 06:28:46: PrepareSave: clone done in 72ms
+02/25/2025 06:28:46: PrepareSave: ZDOExtraData.PrepareSave done in 83 ms
+02/25/2025 06:28:46: World save writing starting
+02/25/2025 06:28:46: World save writing started
+02/25/2025 06:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 06:28:47: Saved 385722 ZDOs
+02/25/2025 06:28:47: World save writing finishing
+02/25/2025 06:28:47: World save writing finished
+02/25/2025 06:28:47: World saved ( 955.802ms )
+02/25/2025 06:28:47: Considering autobackup. World time: 16200.46, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 06:28:47: No autobackup needed yet...
+Am I Host? True
+02/25/2025 06:36:24: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 06:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 06:39:38: Update PlayFab entity token
+02/25/2025 06:46:14: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 06:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 06:53:40: Update PlayFab entity token
+Am I Host? True
+02/25/2025 06:58:46: Available space to current user: 215301726208. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 06:58:46: Sending message to save player profiles
+02/25/2025 06:58:47: PrepareSave: clone done in 72ms
+02/25/2025 06:58:47: PrepareSave: ZDOExtraData.PrepareSave done in 84 ms
+02/25/2025 06:58:47: World save writing starting
+02/25/2025 06:58:47: World save writing started
+02/25/2025 06:58:47: Unloading unused assets
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+02/25/2025 06:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 197.318114 ms (FindLiveObjects: 7.464734 ms CreateObjectMapping: 12.887716 ms MarkObjects: 176.734634 ms  DeleteObjects: 0.230140 ms)
+
+02/25/2025 06:58:48: Saved 385722 ZDOs
+02/25/2025 06:58:48: World save writing finishing
+02/25/2025 06:58:48: World save writing finished
+02/25/2025 06:58:48: World saved ( 1131.625ms )
+02/25/2025 06:58:48: Considering autobackup. World time: 18001.06, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 06:58:48: Time to overwrite our last autobackup
+02/25/2025 06:58:48: Replacing backup file: Tester_backup_auto-20250223222314
+02/25/2025 06:58:48: Saving backup at: Tester_backup_auto-20250225065847
+02/25/2025 06:58:48: World auto backup saved ( 00:00:00.0161860ms )
+Am I Host? True
+02/25/2025 06:59:08: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 07:08:09: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 07:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 07:09:03: Update PlayFab entity token
+02/25/2025 07:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 07:21:26: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 07:27:13: Update PlayFab entity token
+02/25/2025 07:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 07:28:47: Available space to current user: 215300440064. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 07:28:47: Sending message to save player profiles
+02/25/2025 07:28:47: PrepareSave: clone done in 72ms
+02/25/2025 07:28:47: PrepareSave: ZDOExtraData.PrepareSave done in 83 ms
+02/25/2025 07:28:47: World save writing starting
+02/25/2025 07:28:47: World save writing started
+02/25/2025 07:28:48: Saved 385722 ZDOs
+02/25/2025 07:28:48: World save writing finishing
+02/25/2025 07:28:48: World save writing finished
+02/25/2025 07:28:48: World saved ( 962.25ms )
+02/25/2025 07:28:48: Considering autobackup. World time: 19801.3, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 07:28:48: No autobackup needed yet...
+Am I Host? True
+02/25/2025 07:33:00: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 07:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 07:43:15: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 07:47:01: Update PlayFab entity token
+02/25/2025 07:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 07:52:16: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 07:58:47: Unloading unused assets
+02/25/2025 07:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 139.892206 ms (FindLiveObjects: 7.632733 ms CreateObjectMapping: 9.718075 ms MarkObjects: 122.260608 ms  DeleteObjects: 0.280000 ms)
+
+Am I Host? True
+02/25/2025 07:58:47: Available space to current user: 215299235840. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 07:58:47: Sending message to save player profiles
+02/25/2025 07:58:47: PrepareSave: clone done in 72ms
+02/25/2025 07:58:48: PrepareSave: ZDOExtraData.PrepareSave done in 83 ms
+02/25/2025 07:58:48: World save writing starting
+02/25/2025 07:58:48: World save writing started
+02/25/2025 07:58:48: Saved 385722 ZDOs
+02/25/2025 07:58:48: World save writing finishing
+02/25/2025 07:58:49: World save writing finished
+02/25/2025 07:58:49: World saved ( 970.197ms )
+02/25/2025 07:58:49: Considering autobackup. World time: 21601.74, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 07:58:49: No autobackup needed yet...
+Am I Host? True
+02/25/2025 08:02:42: Update PlayFab entity token
+02/25/2025 08:04:08: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 08:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 08:16:59: Update PlayFab entity token
+02/25/2025 08:17:14: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 08:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 08:26:30: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 08:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 08:28:48: Available space to current user: 215298142208. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 08:28:48: Sending message to save player profiles
+02/25/2025 08:28:48: PrepareSave: clone done in 74ms
+02/25/2025 08:28:48: PrepareSave: ZDOExtraData.PrepareSave done in 68 ms
+02/25/2025 08:28:48: World save writing starting
+02/25/2025 08:28:48: World save writing started
+02/25/2025 08:28:49: Saved 385722 ZDOs
+02/25/2025 08:28:49: World save writing finishing
+02/25/2025 08:28:49: World save writing finished
+02/25/2025 08:28:49: World saved ( 996.15ms )
+02/25/2025 08:28:49: Considering autobackup. World time: 23402.18, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 08:28:49: No autobackup needed yet...
+Am I Host? True
+02/25/2025 08:35:42: Update PlayFab entity token
+02/25/2025 08:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 08:39:29: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 08:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 08:50:20: Update PlayFab entity token
+02/25/2025 08:53:11: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 08:58:47: Unloading unused assets
+02/25/2025 08:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 139.623987 ms (FindLiveObjects: 7.570034 ms CreateObjectMapping: 10.114425 ms MarkObjects: 121.656318 ms  DeleteObjects: 0.282500 ms)
+
+Am I Host? True
+02/25/2025 08:58:48: Available space to current user: 215297024000. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 08:58:48: Sending message to save player profiles
+02/25/2025 08:58:48: PrepareSave: clone done in 75ms
+02/25/2025 08:58:48: PrepareSave: ZDOExtraData.PrepareSave done in 67 ms
+02/25/2025 08:58:48: World save writing starting
+02/25/2025 08:58:48: World save writing started
+02/25/2025 08:58:49: Saved 385722 ZDOs
+02/25/2025 08:58:49: World save writing finishing
+02/25/2025 08:58:49: World save writing finished
+02/25/2025 08:58:49: World saved ( 997.718ms )
+02/25/2025 08:58:49: Considering autobackup. World time: 25202.64, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 08:58:49: Overwrite our newest autobackup since the second one isn't so old
+02/25/2025 08:58:49: Replacing backup file: Tester_backup_auto-20250225065847
+02/25/2025 08:58:49: Saving backup at: Tester_backup_auto-20250225085848
+02/25/2025 08:58:49: World auto backup saved ( 00:00:00.0156520ms )
+Am I Host? True
+02/25/2025 09:05:03: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 09:08:36: Update PlayFab entity token
+02/25/2025 09:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 09:15:56: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 09:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 09:25:37: Update PlayFab entity token
+02/25/2025 09:28:45: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 09:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 09:28:49: Available space to current user: 215295922176. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 09:28:49: Sending message to save player profiles
+02/25/2025 09:28:49: PrepareSave: clone done in 74ms
+02/25/2025 09:28:49: PrepareSave: ZDOExtraData.PrepareSave done in 67 ms
+02/25/2025 09:28:49: World save writing starting
+02/25/2025 09:28:49: World save writing started
+02/25/2025 09:28:50: Saved 385722 ZDOs
+02/25/2025 09:28:50: World save writing finishing
+02/25/2025 09:28:50: World save writing finished
+02/25/2025 09:28:50: World saved ( 992.584ms )
+02/25/2025 09:28:50: Considering autobackup. World time: 27003.08, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 09:28:50: No autobackup needed yet...
+Am I Host? True
+02/25/2025 09:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 09:41:24: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 09:41:27: Update PlayFab entity token
+02/25/2025 09:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 09:51:40: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 09:56:59: Update PlayFab entity token
+02/25/2025 09:58:47: Unloading unused assets
+02/25/2025 09:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 139.075907 ms (FindLiveObjects: 7.636884 ms CreateObjectMapping: 9.959225 ms MarkObjects: 121.189568 ms  DeleteObjects: 0.289600 ms)
+
+Am I Host? True
+02/25/2025 09:58:49: Available space to current user: 215294795776. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 09:58:49: Sending message to save player profiles
+02/25/2025 09:58:49: PrepareSave: clone done in 74ms
+02/25/2025 09:58:49: PrepareSave: ZDOExtraData.PrepareSave done in 67 ms
+02/25/2025 09:58:49: World save writing starting
+02/25/2025 09:58:49: World save writing started
+02/25/2025 09:58:50: Saved 385722 ZDOs
+02/25/2025 09:58:50: World save writing finishing
+02/25/2025 09:58:50: World save writing finished
+02/25/2025 09:58:50: World saved ( 1010.152ms )
+02/25/2025 09:58:50: Considering autobackup. World time: 28803.58, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 09:58:50: No autobackup needed yet...
+Am I Host? True
+02/25/2025 10:04:46: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 10:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 10:14:23: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 10:17:07: Update PlayFab entity token
+02/25/2025 10:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 10:23:49: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 10:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 10:28:50: Available space to current user: 215293698048. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 10:28:50: Sending message to save player profiles
+02/25/2025 10:28:50: PrepareSave: clone done in 73ms
+02/25/2025 10:28:50: PrepareSave: ZDOExtraData.PrepareSave done in 84 ms
+02/25/2025 10:28:50: World save writing starting
+02/25/2025 10:28:50: World save writing started
+02/25/2025 10:28:51: Saved 385722 ZDOs
+02/25/2025 10:28:51: World save writing finishing
+02/25/2025 10:28:51: World save writing finished
+02/25/2025 10:28:51: World saved ( 985.489ms )
+02/25/2025 10:28:51: Considering autobackup. World time: 30604, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 10:28:51: No autobackup needed yet...
+Am I Host? True
+02/25/2025 10:35:42: Update PlayFab entity token
+02/25/2025 10:37:38: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 10:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 10:46:52: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 10:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 10:54:16: Update PlayFab entity token
+02/25/2025 10:56:18: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 10:58:47: Unloading unused assets
+02/25/2025 10:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 138.798466 ms (FindLiveObjects: 7.611454 ms CreateObjectMapping: 10.067754 ms MarkObjects: 120.841688 ms  DeleteObjects: 0.276880 ms)
+
+Am I Host? True
+02/25/2025 10:58:50: Available space to current user: 215292182528. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 10:58:50: Sending message to save player profiles
+02/25/2025 10:58:50: PrepareSave: clone done in 72ms
+02/25/2025 10:58:50: PrepareSave: ZDOExtraData.PrepareSave done in 85 ms
+02/25/2025 10:58:50: World save writing starting
+02/25/2025 10:58:50: World save writing started
+02/25/2025 10:58:51: Saved 385722 ZDOs
+02/25/2025 10:58:51: World save writing finishing
+02/25/2025 10:58:51: World save writing finished
+02/25/2025 10:58:51: World saved ( 971.529ms )
+02/25/2025 10:58:51: Considering autobackup. World time: 32404.4, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 10:58:51: Overwrite our newest autobackup since the second one isn't so old
+02/25/2025 10:58:51: Replacing backup file: Tester_backup_auto-20250225085848
+02/25/2025 10:58:51: Saving backup at: Tester_backup_auto-20250225105850
+02/25/2025 10:58:51: World auto backup saved ( 00:00:00.0158480ms )
+Am I Host? True
+02/25/2025 11:07:44: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 11:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 11:15:09: Update PlayFab entity token
+02/25/2025 11:16:58: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 11:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 11:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 11:28:51: Available space to current user: 215291056128. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 11:28:51: Sending message to save player profiles
+02/25/2025 11:28:51: PrepareSave: clone done in 73ms
+02/25/2025 11:28:51: PrepareSave: ZDOExtraData.PrepareSave done in 84 ms
+02/25/2025 11:28:51: World save writing starting
+02/25/2025 11:28:51: World save writing started
+02/25/2025 11:28:52: Saved 385722 ZDOs
+02/25/2025 11:28:52: World save writing finishing
+02/25/2025 11:28:52: World save writing finished
+02/25/2025 11:28:52: World saved ( 975.501ms )
+02/25/2025 11:28:52: Considering autobackup. World time: 34204.9, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 11:28:52: No autobackup needed yet...
+Am I Host? True
+02/25/2025 11:30:26: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 11:31:23: Update PlayFab entity token
+02/25/2025 11:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 11:43:40: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 11:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 11:50:12: Update PlayFab entity token
+02/25/2025 11:57:28: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 11:58:47: Unloading unused assets
+02/25/2025 11:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 140.644657 ms (FindLiveObjects: 7.508893 ms CreateObjectMapping: 9.842355 ms MarkObjects: 123.014889 ms  DeleteObjects: 0.277820 ms)
+
+Am I Host? True
+02/25/2025 11:58:51: Available space to current user: 215289872384. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 11:58:51: Sending message to save player profiles
+02/25/2025 11:58:51: PrepareSave: clone done in 72ms
+02/25/2025 11:58:51: PrepareSave: ZDOExtraData.PrepareSave done in 84 ms
+02/25/2025 11:58:51: World save writing starting
+02/25/2025 11:58:51: World save writing started
+02/25/2025 11:58:52: Saved 385722 ZDOs
+02/25/2025 11:58:52: World save writing finishing
+02/25/2025 11:58:52: World save writing finished
+02/25/2025 11:58:52: World saved ( 955.871ms )
+02/25/2025 11:58:52: Considering autobackup. World time: 36005.3, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 11:58:52: No autobackup needed yet...
+Am I Host? True
+02/25/2025 12:06:41: Update PlayFab entity token
+02/25/2025 12:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 12:11:06: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 12:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 12:21:29: Update PlayFab entity token
+02/25/2025 12:22:28: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 12:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 12:28:52: Available space to current user: 215288733696. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 12:28:52: Sending message to save player profiles
+02/25/2025 12:28:52: PrepareSave: clone done in 72ms
+02/25/2025 12:28:52: PrepareSave: ZDOExtraData.PrepareSave done in 84 ms
+02/25/2025 12:28:52: World save writing starting
+02/25/2025 12:28:52: World save writing started
+02/25/2025 12:28:53: Saved 385722 ZDOs
+02/25/2025 12:28:53: World save writing finishing
+02/25/2025 12:28:53: World save writing finished
+02/25/2025 12:28:53: World saved ( 961.19ms )
+02/25/2025 12:28:53: Considering autobackup. World time: 37805.74, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 12:28:53: No autobackup needed yet...
+Am I Host? True
+02/25/2025 12:32:42: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 12:35:30: Update PlayFab entity token
+02/25/2025 12:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 12:45:38: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 12:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 12:51:34: Update PlayFab entity token
+02/25/2025 12:58:47: Unloading unused assets
+02/25/2025 12:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 138.941866 ms (FindLiveObjects: 7.563563 ms CreateObjectMapping: 10.089995 ms MarkObjects: 121.003728 ms  DeleteObjects: 0.283950 ms)
+
+Am I Host? True
+02/25/2025 12:58:52: Available space to current user: 215287357440. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 12:58:52: Sending message to save player profiles
+02/25/2025 12:58:52: PrepareSave: clone done in 72ms
+02/25/2025 12:58:52: PrepareSave: ZDOExtraData.PrepareSave done in 84 ms
+02/25/2025 12:58:52: World save writing starting
+02/25/2025 12:58:52: World save writing started
+02/25/2025 12:58:53: Saved 385722 ZDOs
+02/25/2025 12:58:53: World save writing finishing
+02/25/2025 12:58:53: World save writing finished
+02/25/2025 12:58:53: World saved ( 983.872ms )
+02/25/2025 12:58:53: Considering autobackup. World time: 39606.2, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 12:58:53: Overwrite our newest autobackup since the second one isn't so old
+02/25/2025 12:58:53: Replacing backup file: Tester_backup_auto-20250225105850
+02/25/2025 12:58:53: Saving backup at: Tester_backup_auto-20250225125852
+02/25/2025 12:58:53: World auto backup saved ( 00:00:00.0161610ms )
+Am I Host? True
+02/25/2025 12:59:32: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 13:06:10: Update PlayFab entity token
+02/25/2025 13:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 13:11:26: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 13:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 13:24:27: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 13:24:54: Update PlayFab entity token
+02/25/2025 13:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 13:28:52: Available space to current user: 215286214656. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 13:28:52: Sending message to save player profiles
+02/25/2025 13:28:52: PrepareSave: clone done in 72ms
+02/25/2025 13:28:53: PrepareSave: ZDOExtraData.PrepareSave done in 87 ms
+02/25/2025 13:28:53: World save writing starting
+02/25/2025 13:28:53: World save writing started
+02/25/2025 13:28:53: Saved 385722 ZDOs
+02/25/2025 13:28:54: World save writing finishing
+02/25/2025 13:28:54: World save writing finished
+02/25/2025 13:28:54: World saved ( 973.314ms )
+02/25/2025 13:28:54: Considering autobackup. World time: 41406.64, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 13:28:54: No autobackup needed yet...
+Am I Host? True
+02/25/2025 13:37:13: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 13:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 13:44:24: Update PlayFab entity token
+02/25/2025 13:47:11: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 13:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 13:56:28: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 13:58:47: Unloading unused assets
+02/25/2025 13:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 139.894647 ms (FindLiveObjects: 7.523184 ms CreateObjectMapping: 10.129675 ms MarkObjects: 121.944188 ms  DeleteObjects: 0.296830 ms)
+
+Am I Host? True
+02/25/2025 13:58:53: Available space to current user: 215285096448. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 13:58:53: Sending message to save player profiles
+02/25/2025 13:58:53: PrepareSave: clone done in 73ms
+02/25/2025 13:58:53: PrepareSave: ZDOExtraData.PrepareSave done in 84 ms
+02/25/2025 13:58:53: World save writing starting
+02/25/2025 13:58:53: World save writing started
+02/25/2025 13:58:54: Saved 385722 ZDOs
+02/25/2025 13:58:54: World save writing finishing
+02/25/2025 13:58:54: World save writing finished
+02/25/2025 13:58:54: World saved ( 972.797ms )
+02/25/2025 13:58:54: Considering autobackup. World time: 43207.04, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 13:58:54: No autobackup needed yet...
+Am I Host? True
+02/25/2025 14:03:53: Update PlayFab entity token
+02/25/2025 14:03:53: Renew PlayFab entity token
+02/25/2025 14:03:54: PlayFab local entity ID D744ED1FBC92A191 lifetime extended 
+02/25/2025 14:06:25: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 14:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 14:15:51: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 14:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 14:21:07: Update PlayFab entity token
+02/25/2025 14:26:16: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 14:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 14:28:53: Available space to current user: 215283965952. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 14:28:53: Sending message to save player profiles
+02/25/2025 14:28:53: PrepareSave: clone done in 74ms
+02/25/2025 14:28:53: PrepareSave: ZDOExtraData.PrepareSave done in 68 ms
+02/25/2025 14:28:53: World save writing starting
+02/25/2025 14:28:53: World save writing started
+02/25/2025 14:28:54: Saved 385722 ZDOs
+02/25/2025 14:28:54: World save writing finishing
+02/25/2025 14:28:54: World save writing finished
+02/25/2025 14:28:54: World saved ( 995.368ms )
+02/25/2025 14:28:54: Considering autobackup. World time: 45007.5, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 14:28:54: No autobackup needed yet...
+Am I Host? True
+02/25/2025 14:36:49: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 14:37:18: Update PlayFab entity token
+02/25/2025 14:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 14:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 14:49:21: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 14:54:28: Update PlayFab entity token
+02/25/2025 14:58:47: Unloading unused assets
+02/25/2025 14:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 138.544766 ms (FindLiveObjects: 7.573293 ms CreateObjectMapping: 10.271485 ms MarkObjects: 120.404328 ms  DeleteObjects: 0.294850 ms)
+
+Am I Host? True
+02/25/2025 14:58:54: Available space to current user: 215282790400. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 14:58:54: Sending message to save player profiles
+02/25/2025 14:58:54: PrepareSave: clone done in 75ms
+02/25/2025 14:58:54: PrepareSave: ZDOExtraData.PrepareSave done in 67 ms
+02/25/2025 14:58:54: World save writing starting
+02/25/2025 14:58:54: World save writing started
+02/25/2025 14:58:55: Saved 385722 ZDOs
+02/25/2025 14:58:55: World save writing finishing
+02/25/2025 14:58:55: World save writing finished
+02/25/2025 14:58:55: World saved ( 1009.971ms )
+02/25/2025 14:58:55: Considering autobackup. World time: 46807.98, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 14:58:55: Overwrite our newest autobackup since the second one isn't so old
+02/25/2025 14:58:55: Replacing backup file: Tester_backup_auto-20250225125852
+02/25/2025 14:58:55: Saving backup at: Tester_backup_auto-20250225145854
+02/25/2025 14:58:55: World auto backup saved ( 00:00:00.0155410ms )
+Am I Host? True
+02/25/2025 15:02:24: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 15:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 15:15:23: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 15:15:26: Update PlayFab entity token
+02/25/2025 15:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 15:25:03: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 15:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 15:28:54: Available space to current user: 215281696768. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 15:28:54: Sending message to save player profiles
+02/25/2025 15:28:54: PrepareSave: clone done in 75ms
+02/25/2025 15:28:54: PrepareSave: ZDOExtraData.PrepareSave done in 67 ms
+02/25/2025 15:28:54: World save writing starting
+02/25/2025 15:28:54: World save writing started
+02/25/2025 15:28:55: Saved 385722 ZDOs
+02/25/2025 15:28:55: World save writing finishing
+02/25/2025 15:28:55: World save writing finished
+02/25/2025 15:28:55: World saved ( 1010.468ms )
+02/25/2025 15:28:55: Considering autobackup. World time: 48608.42, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 15:28:55: No autobackup needed yet...
+Am I Host? True
+02/25/2025 15:32:11: Update PlayFab entity token
+02/25/2025 15:37:29: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 15:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 15:47:15: Update PlayFab entity token
+02/25/2025 15:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 15:51:15: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 15:58:47: Unloading unused assets
+02/25/2025 15:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 139.760717 ms (FindLiveObjects: 7.588374 ms CreateObjectMapping: 10.234445 ms MarkObjects: 121.657678 ms  DeleteObjects: 0.279590 ms)
+
+Am I Host? True
+02/25/2025 15:58:55: Available space to current user: 215280590848. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 15:58:55: Sending message to save player profiles
+02/25/2025 15:58:55: PrepareSave: clone done in 68ms
+02/25/2025 15:58:55: PrepareSave: ZDOExtraData.PrepareSave done in 74 ms
+02/25/2025 15:58:55: World save writing starting
+02/25/2025 15:58:55: World save writing started
+02/25/2025 15:58:56: Saved 385722 ZDOs
+02/25/2025 15:58:56: World save writing finishing
+02/25/2025 15:58:56: World save writing finished
+02/25/2025 15:58:56: World saved ( 1004.039ms )
+02/25/2025 15:58:56: Considering autobackup. World time: 50408.86, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 15:58:56: No autobackup needed yet...
+Am I Host? True
+02/25/2025 16:02:12: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 16:04:11: Update PlayFab entity token
+02/25/2025 16:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 16:14:55: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 16:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 16:20:19: Update PlayFab entity token
+02/25/2025 16:28:39: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 16:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 16:28:55: Available space to current user: 215279472640. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 16:28:55: Sending message to save player profiles
+02/25/2025 16:28:55: PrepareSave: clone done in 72ms
+02/25/2025 16:28:55: PrepareSave: ZDOExtraData.PrepareSave done in 85 ms
+02/25/2025 16:28:55: World save writing starting
+02/25/2025 16:28:55: World save writing started
+02/25/2025 16:28:56: Saved 385722 ZDOs
+02/25/2025 16:28:56: World save writing finishing
+02/25/2025 16:28:56: World save writing finished
+02/25/2025 16:28:56: World saved ( 971.769ms )
+02/25/2025 16:28:56: Considering autobackup. World time: 52209.3, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 16:28:56: No autobackup needed yet...
+Am I Host? True
+02/25/2025 16:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 16:38:55: Update PlayFab entity token
+02/25/2025 16:40:18: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 16:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 16:52:20: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 16:58:43: Update PlayFab entity token
+02/25/2025 16:58:47: Unloading unused assets
+02/25/2025 16:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 140.258587 ms (FindLiveObjects: 7.620603 ms CreateObjectMapping: 10.271845 ms MarkObjects: 122.072889 ms  DeleteObjects: 0.292660 ms)
+
+Am I Host? True
+02/25/2025 16:58:56: Available space to current user: 215278333952. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 16:58:56: Sending message to save player profiles
+02/25/2025 16:58:56: PrepareSave: clone done in 73ms
+02/25/2025 16:58:56: PrepareSave: ZDOExtraData.PrepareSave done in 84 ms
+02/25/2025 16:58:56: World save writing starting
+02/25/2025 16:58:56: World save writing started
+02/25/2025 16:58:57: Saved 385722 ZDOs
+02/25/2025 16:58:57: World save writing finishing
+02/25/2025 16:58:57: World save writing finished
+02/25/2025 16:58:57: World saved ( 974.151ms )
+02/25/2025 16:58:57: Considering autobackup. World time: 54009.74, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 16:58:57: Time to overwrite our last autobackup
+02/25/2025 16:58:57: Replacing backup file: Tester_backup_auto-20250224082323
+02/25/2025 16:58:57: Saving backup at: Tester_backup_auto-20250225165856
+02/25/2025 16:58:57: World auto backup saved ( 00:00:00.0154570ms )
+Am I Host? True
+02/25/2025 17:02:28: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 17:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 17:12:39: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 17:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 17:18:59: Update PlayFab entity token
+02/25/2025 17:21:53: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 17:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 17:28:56: Available space to current user: 215277096960. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 17:28:56: Sending message to save player profiles
+02/25/2025 17:28:56: PrepareSave: clone done in 74ms
+02/25/2025 17:28:56: PrepareSave: ZDOExtraData.PrepareSave done in 87 ms
+02/25/2025 17:28:56: World save writing starting
+02/25/2025 17:28:56: World save writing started
+02/25/2025 17:28:57: Saved 385722 ZDOs
+02/25/2025 17:28:57: World save writing finishing
+02/25/2025 17:28:57: World save writing finished
+02/25/2025 17:28:57: World saved ( 975.293ms )
+02/25/2025 17:28:57: Considering autobackup. World time: 55810.16, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 17:28:57: No autobackup needed yet...
+Am I Host? True
+02/25/2025 17:33:34: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 17:38:13: Update PlayFab entity token
+02/25/2025 17:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 17:45:19: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 17:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 17:55:10: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 17:57:28: Update PlayFab entity token
+02/25/2025 17:58:47: Unloading unused assets
+02/25/2025 17:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 139.835767 ms (FindLiveObjects: 7.522084 ms CreateObjectMapping: 10.099165 ms MarkObjects: 121.921698 ms  DeleteObjects: 0.292160 ms)
+
+Am I Host? True
+02/25/2025 17:58:56: Available space to current user: 215275986944. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 17:58:56: Sending message to save player profiles
+02/25/2025 17:58:57: PrepareSave: clone done in 75ms
+02/25/2025 17:58:57: PrepareSave: ZDOExtraData.PrepareSave done in 67 ms
+02/25/2025 17:58:57: World save writing starting
+02/25/2025 17:58:57: World save writing started
+02/25/2025 17:58:58: Saved 385722 ZDOs
+02/25/2025 17:58:58: World save writing finishing
+02/25/2025 17:58:58: World save writing finished
+02/25/2025 17:58:58: World saved ( 1016.703ms )
+02/25/2025 17:58:58: Considering autobackup. World time: 57610.62, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 17:58:58: No autobackup needed yet...
+Am I Host? True
+02/25/2025 18:05:36: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 18:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 18:15:01: Update PlayFab entity token
+02/25/2025 18:15:07: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 18:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 18:21:02: Game server disconnected
+02/25/2025 18:21:20: Game server connected failed
+02/25/2025 18:21:39: Game server connected failed
+02/25/2025 18:22:04: Game server connected failed
+02/25/2025 18:22:27: Game server connected failed
+02/25/2025 18:22:47: Game server connected failed
+02/25/2025 18:24:15: Game server connected failed
+02/25/2025 18:24:49: Game server connected failed
+02/25/2025 18:25:35: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 18:26:42: Game server connected
+02/25/2025 18:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 18:28:57: Available space to current user: 215274860544. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 18:28:57: Sending message to save player profiles
+02/25/2025 18:28:57: PrepareSave: clone done in 75ms
+02/25/2025 18:28:57: PrepareSave: ZDOExtraData.PrepareSave done in 68 ms
+02/25/2025 18:28:57: World save writing starting
+02/25/2025 18:28:57: World save writing started
+02/25/2025 18:28:58: Saved 385722 ZDOs
+02/25/2025 18:28:58: World save writing finishing
+02/25/2025 18:28:58: World save writing finished
+02/25/2025 18:28:58: World saved ( 1022.3ms )
+02/25/2025 18:28:58: Considering autobackup. World time: 59411.06, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 18:28:58: No autobackup needed yet...
+Am I Host? True
+02/25/2025 18:30:58: Update PlayFab entity token
+02/25/2025 18:35:23: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 18:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 18:46:17: Update PlayFab entity token
+02/25/2025 18:47:26: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 18:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 18:58:47: Unloading unused assets
+02/25/2025 18:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 139.028626 ms (FindLiveObjects: 7.656433 ms CreateObjectMapping: 10.145535 ms MarkObjects: 120.930298 ms  DeleteObjects: 0.295770 ms)
+
+Am I Host? True
+02/25/2025 18:58:57: Available space to current user: 215273717760. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 18:58:57: Sending message to save player profiles
+02/25/2025 18:58:57: PrepareSave: clone done in 68ms
+02/25/2025 18:58:58: PrepareSave: ZDOExtraData.PrepareSave done in 80 ms
+02/25/2025 18:58:58: World save writing starting
+02/25/2025 18:58:58: World save writing started
+02/25/2025 18:58:59: Saved 385722 ZDOs
+02/25/2025 18:58:59: World save writing finishing
+02/25/2025 18:58:59: World save writing finished
+02/25/2025 18:58:59: World saved ( 1024.619ms )
+02/25/2025 18:58:59: Considering autobackup. World time: 61211.5, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 18:58:59: Overwrite our newest autobackup since the second one isn't so old
+02/25/2025 18:58:59: Replacing backup file: Tester_backup_auto-20250225165856
+02/25/2025 18:58:59: Saving backup at: Tester_backup_auto-20250225185858
+02/25/2025 18:58:59: World auto backup saved ( 00:00:00.0162900ms )
+Am I Host? True
+02/25/2025 19:00:33: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 19:03:55: Update PlayFab entity token
+02/25/2025 19:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 19:12:20: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 19:18:18: Update PlayFab entity token
+02/25/2025 19:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 19:24:24: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 19:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 19:28:58: Available space to current user: 215272628224. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 19:28:58: Sending message to save player profiles
+02/25/2025 19:28:58: PrepareSave: clone done in 73ms
+02/25/2025 19:28:58: PrepareSave: ZDOExtraData.PrepareSave done in 90 ms
+02/25/2025 19:28:58: World save writing starting
+02/25/2025 19:28:58: World save writing started
+02/25/2025 19:28:59: Saved 385722 ZDOs
+02/25/2025 19:28:59: World save writing finishing
+02/25/2025 19:28:59: World save writing finished
+02/25/2025 19:28:59: World saved ( 993.666ms )
+02/25/2025 19:28:59: Considering autobackup. World time: 63011.92, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 19:28:59: No autobackup needed yet...
+Am I Host? True
+02/25/2025 19:33:57: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 19:34:38: Update PlayFab entity token
+02/25/2025 19:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 19:47:09: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 19:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 19:55:23: Update PlayFab entity token
+02/25/2025 19:58:47: Unloading unused assets
+02/25/2025 19:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 139.903547 ms (FindLiveObjects: 7.646404 ms CreateObjectMapping: 9.916585 ms MarkObjects: 122.060808 ms  DeleteObjects: 0.278880 ms)
+
+Am I Host? True
+02/25/2025 19:58:58: Available space to current user: 215271485440. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 19:58:58: Sending message to save player profiles
+02/25/2025 19:58:58: PrepareSave: clone done in 74ms
+02/25/2025 19:58:58: PrepareSave: ZDOExtraData.PrepareSave done in 68 ms
+02/25/2025 19:58:58: World save writing starting
+02/25/2025 19:58:58: World save writing started
+02/25/2025 19:58:59: Saved 385722 ZDOs
+02/25/2025 19:58:59: World save writing finishing
+02/25/2025 19:59:00: World save writing finished
+02/25/2025 19:59:00: World saved ( 1015.895ms )
+02/25/2025 19:59:00: Considering autobackup. World time: 64812.38, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 19:59:00: No autobackup needed yet...
+Am I Host? True
+02/25/2025 20:00:01: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 20:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 20:10:12: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 20:12:59: Update PlayFab entity token
+02/25/2025 20:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 20:21:22: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 20:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 20:28:59: Available space to current user: 215270346752. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 20:28:59: Sending message to save player profiles
+02/25/2025 20:28:59: PrepareSave: clone done in 75ms
+02/25/2025 20:28:59: PrepareSave: ZDOExtraData.PrepareSave done in 67 ms
+02/25/2025 20:28:59: World save writing starting
+02/25/2025 20:28:59: World save writing started
+02/25/2025 20:29:00: Saved 385722 ZDOs
+02/25/2025 20:29:00: World save writing finishing
+02/25/2025 20:29:00: World save writing finished
+02/25/2025 20:29:00: World saved ( 1021.644ms )
+02/25/2025 20:29:00: Considering autobackup. World time: 66612.84, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 20:29:00: No autobackup needed yet...
+Am I Host? True
+02/25/2025 20:30:05: Update PlayFab entity token
+02/25/2025 20:30:28: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 20:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 20:40:42: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 20:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 20:50:06: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 20:50:37: Update PlayFab entity token
+02/25/2025 20:58:47: Unloading unused assets
+02/25/2025 20:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 140.505727 ms (FindLiveObjects: 7.498934 ms CreateObjectMapping: 10.187804 ms MarkObjects: 122.539509 ms  DeleteObjects: 0.278530 ms)
+
+Am I Host? True
+02/25/2025 20:58:59: Available space to current user: 215268888576. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 20:58:59: Sending message to save player profiles
+02/25/2025 20:58:59: PrepareSave: clone done in 73ms
+02/25/2025 20:58:59: PrepareSave: ZDOExtraData.PrepareSave done in 85 ms
+02/25/2025 20:58:59: World save writing starting
+02/25/2025 20:58:59: World save writing started
+02/25/2025 20:59:00: Saved 385722 ZDOs
+02/25/2025 20:59:00: World save writing finishing
+02/25/2025 20:59:00: World save writing finished
+02/25/2025 20:59:00: World saved ( 971.303ms )
+02/25/2025 20:59:00: Considering autobackup. World time: 68413.28, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 20:59:00: Overwrite our newest autobackup since the second one isn't so old
+02/25/2025 20:59:00: Replacing backup file: Tester_backup_auto-20250225185858
+02/25/2025 20:59:00: Saving backup at: Tester_backup_auto-20250225205859
+02/25/2025 20:59:00: World auto backup saved ( 00:00:00.0154390ms )
+Am I Host? True
+02/25/2025 21:02:24: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 21:06:50: Update PlayFab entity token
+02/25/2025 21:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 21:11:52: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 21:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 21:24:15: Update PlayFab entity token
+02/25/2025 21:25:12: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 21:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 21:29:00: Available space to current user: 215267758080. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 21:29:00: Sending message to save player profiles
+02/25/2025 21:29:00: PrepareSave: clone done in 74ms
+02/25/2025 21:29:00: PrepareSave: ZDOExtraData.PrepareSave done in 84 ms
+02/25/2025 21:29:00: World save writing starting
+02/25/2025 21:29:00: World save writing started
+02/25/2025 21:29:01: Saved 385722 ZDOs
+02/25/2025 21:29:01: World save writing finishing
+02/25/2025 21:29:01: World save writing finished
+02/25/2025 21:29:01: World saved ( 980.713ms )
+02/25/2025 21:29:01: Considering autobackup. World time: 70213.74, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 21:29:01: No autobackup needed yet...
+Am I Host? True
+02/25/2025 21:36:45: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 21:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 21:41:56: Update PlayFab entity token
+02/25/2025 21:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 21:49:36: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 21:58:47: Unloading unused assets
+02/25/2025 21:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 140.060717 ms (FindLiveObjects: 7.527533 ms CreateObjectMapping: 10.093255 ms MarkObjects: 122.141139 ms  DeleteObjects: 0.298160 ms)
+
+Am I Host? True
+02/25/2025 21:59:00: Available space to current user: 215266623488. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 21:59:00: Sending message to save player profiles
+02/25/2025 21:59:00: PrepareSave: clone done in 74ms
+02/25/2025 21:59:00: PrepareSave: ZDOExtraData.PrepareSave done in 76 ms
+02/25/2025 21:59:00: World save writing starting
+02/25/2025 21:59:00: World save writing started
+02/25/2025 21:59:01: Saved 385722 ZDOs
+02/25/2025 21:59:01: World save writing finishing
+02/25/2025 21:59:01: World save writing finished
+02/25/2025 21:59:01: World saved ( 1005.389ms )
+02/25/2025 21:59:01: Considering autobackup. World time: 72014.2, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 21:59:01: No autobackup needed yet...
+Am I Host? True
+02/25/2025 22:00:03: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 22:01:01: Update PlayFab entity token
+02/25/2025 22:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 22:10:10: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 22:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 22:19:01: Update PlayFab entity token
+02/25/2025 22:22:13: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 22:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 22:29:01: Available space to current user: 215265488896. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 22:29:01: Sending message to save player profiles
+02/25/2025 22:29:01: PrepareSave: clone done in 75ms
+02/25/2025 22:29:01: PrepareSave: ZDOExtraData.PrepareSave done in 68 ms
+02/25/2025 22:29:01: World save writing starting
+02/25/2025 22:29:01: World save writing started
+02/25/2025 22:29:02: Saved 385722 ZDOs
+02/25/2025 22:29:02: World save writing finishing
+02/25/2025 22:29:02: World save writing finished
+02/25/2025 22:29:02: World saved ( 1002.046ms )
+02/25/2025 22:29:02: Considering autobackup. World time: 73814.6, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 22:29:02: No autobackup needed yet...
+Am I Host? True
+02/25/2025 22:33:22: Update PlayFab entity token
+02/25/2025 22:33:29: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 22:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 22:45:40: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 22:48:07: Update PlayFab entity token
+02/25/2025 22:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 22:56:16: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 22:58:47: Unloading unused assets
+02/25/2025 22:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 140.609757 ms (FindLiveObjects: 7.675964 ms CreateObjectMapping: 9.918994 ms MarkObjects: 122.735259 ms  DeleteObjects: 0.278850 ms)
+
+Am I Host? True
+02/25/2025 22:59:01: Available space to current user: 215264432128. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 22:59:01: Sending message to save player profiles
+02/25/2025 22:59:01: PrepareSave: clone done in 75ms
+02/25/2025 22:59:01: PrepareSave: ZDOExtraData.PrepareSave done in 68 ms
+02/25/2025 22:59:01: World save writing starting
+02/25/2025 22:59:01: World save writing started
+02/25/2025 22:59:02: Saved 385722 ZDOs
+02/25/2025 22:59:02: World save writing finishing
+02/25/2025 22:59:02: World save writing finished
+02/25/2025 22:59:02: World saved ( 1042.245ms )
+02/25/2025 22:59:02: Considering autobackup. World time: 75615.08, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 22:59:02: Overwrite our newest autobackup since the second one isn't so old
+02/25/2025 22:59:02: Replacing backup file: Tester_backup_auto-20250225205859
+02/25/2025 22:59:02: Saving backup at: Tester_backup_auto-20250225225901
+02/25/2025 22:59:02: World auto backup saved ( 00:00:00.0155470ms )
+Am I Host? True
+02/25/2025 23:02:56: Update PlayFab entity token
+02/25/2025 23:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 23:09:14: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 23:18:23: Update PlayFab entity token
+02/25/2025 23:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 23:21:46: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 23:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/25/2025 23:29:02: Available space to current user: 215263297536. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 23:29:02: Sending message to save player profiles
+02/25/2025 23:29:02: PrepareSave: clone done in 68ms
+02/25/2025 23:29:02: PrepareSave: ZDOExtraData.PrepareSave done in 74 ms
+02/25/2025 23:29:02: World save writing starting
+02/25/2025 23:29:02: World save writing started
+02/25/2025 23:29:03: Saved 385722 ZDOs
+02/25/2025 23:29:03: World save writing finishing
+02/25/2025 23:29:03: World save writing finished
+02/25/2025 23:29:03: World saved ( 1010.185ms )
+02/25/2025 23:29:03: Considering autobackup. World time: 77415.52, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 23:29:03: No autobackup needed yet...
+Am I Host? True
+02/25/2025 23:34:27: Update PlayFab entity token
+02/25/2025 23:35:34: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 23:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 23:47:29: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 23:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/25/2025 23:49:15: Update PlayFab entity token
+02/25/2025 23:57:40: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/25/2025 23:58:47: Unloading unused assets
+02/25/2025 23:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 139.820616 ms (FindLiveObjects: 7.553843 ms CreateObjectMapping: 10.239245 ms MarkObjects: 121.734648 ms  DeleteObjects: 0.292250 ms)
+
+Am I Host? True
+02/25/2025 23:59:02: Available space to current user: 215262171136. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/25/2025 23:59:02: Sending message to save player profiles
+02/25/2025 23:59:02: PrepareSave: clone done in 73ms
+02/25/2025 23:59:02: PrepareSave: ZDOExtraData.PrepareSave done in 84 ms
+02/25/2025 23:59:02: World save writing starting
+02/25/2025 23:59:02: World save writing started
+02/25/2025 23:59:03: Saved 385722 ZDOs
+02/25/2025 23:59:03: World save writing finishing
+02/25/2025 23:59:03: World save writing finished
+02/25/2025 23:59:03: World saved ( 983.149ms )
+02/25/2025 23:59:03: Considering autobackup. World time: 79215.92, short time: 7200, long time: 43200, backup count: 4
+02/25/2025 23:59:03: No autobackup needed yet...
+Am I Host? True
+02/26/2025 00:08:41: Update PlayFab entity token
+02/26/2025 00:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/26/2025 00:10:56: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/26/2025 00:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/26/2025 00:21:53: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/26/2025 00:25:08: Update PlayFab entity token
+02/26/2025 00:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/26/2025 00:29:02: Available space to current user: 215260848128. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/26/2025 00:29:02: Sending message to save player profiles
+02/26/2025 00:29:03: PrepareSave: clone done in 74ms
+02/26/2025 00:29:03: PrepareSave: ZDOExtraData.PrepareSave done in 85 ms
+02/26/2025 00:29:03: World save writing starting
+02/26/2025 00:29:03: World save writing started
+02/26/2025 00:29:04: Saved 385722 ZDOs
+02/26/2025 00:29:04: World save writing finishing
+02/26/2025 00:29:04: World save writing finished
+02/26/2025 00:29:04: World saved ( 987.305ms )
+02/26/2025 00:29:04: Considering autobackup. World time: 81016.34, short time: 7200, long time: 43200, backup count: 4
+02/26/2025 00:29:04: No autobackup needed yet...
+Am I Host? True
+02/26/2025 00:32:19: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/26/2025 00:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/26/2025 00:41:30: Update PlayFab entity token
+02/26/2025 00:43:09: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/26/2025 00:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/26/2025 00:55:38: Update PlayFab entity token
+02/26/2025 00:56:53: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/26/2025 00:58:47: Unloading unused assets
+02/26/2025 00:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 140.511557 ms (FindLiveObjects: 7.443813 ms CreateObjectMapping: 10.015925 ms MarkObjects: 122.771839 ms  DeleteObjects: 0.279440 ms)
+
+Am I Host? True
+02/26/2025 00:59:03: Available space to current user: 215259770880. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/26/2025 00:59:03: Sending message to save player profiles
+02/26/2025 00:59:03: PrepareSave: clone done in 74ms
+02/26/2025 00:59:03: PrepareSave: ZDOExtraData.PrepareSave done in 79 ms
+02/26/2025 00:59:03: World save writing starting
+02/26/2025 00:59:03: World save writing started
+02/26/2025 00:59:04: Saved 385722 ZDOs
+02/26/2025 00:59:04: World save writing finishing
+02/26/2025 00:59:04: World save writing finished
+02/26/2025 00:59:04: World saved ( 1054.05ms )
+02/26/2025 00:59:04: Considering autobackup. World time: 82816.86, short time: 7200, long time: 43200, backup count: 4
+02/26/2025 00:59:04: Overwrite our newest autobackup since the second one isn't so old
+02/26/2025 00:59:04: Replacing backup file: Tester_backup_auto-20250225225901
+02/26/2025 00:59:04: Saving backup at: Tester_backup_auto-20250226005903
+02/26/2025 00:59:04: World auto backup saved ( 00:00:00.0157350ms )
+Am I Host? True
+02/26/2025 01:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/26/2025 01:09:14: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/26/2025 01:11:18: Update PlayFab entity token
+02/26/2025 01:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/26/2025 01:22:52: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/26/2025 01:28:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Am I Host? True
+02/26/2025 01:29:03: Available space to current user: 215258685440. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/26/2025 01:29:03: Sending message to save player profiles
+02/26/2025 01:29:03: PrepareSave: clone done in 74ms
+02/26/2025 01:29:04: PrepareSave: ZDOExtraData.PrepareSave done in 71 ms
+02/26/2025 01:29:04: World save writing starting
+02/26/2025 01:29:04: World save writing started
+02/26/2025 01:29:05: Saved 385722 ZDOs
+02/26/2025 01:29:05: World save writing finishing
+02/26/2025 01:29:05: World save writing finished
+02/26/2025 01:29:05: World saved ( 1024.072ms )
+02/26/2025 01:29:05: Considering autobackup. World time: 84617.28, short time: 7200, long time: 43200, backup count: 4
+02/26/2025 01:29:05: No autobackup needed yet...
+Am I Host? True
+02/26/2025 01:30:22: Update PlayFab entity token
+02/26/2025 01:32:55: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/26/2025 01:38:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/26/2025 01:45:42: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/26/2025 01:45:55: Update PlayFab entity token
+02/26/2025 01:48:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/26/2025 01:58:16: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/26/2025 01:58:47: Unloading unused assets
+02/26/2025 01:58:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1297)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 201228.
+Total: 139.639607 ms (FindLiveObjects: 7.465594 ms CreateObjectMapping: 10.177445 ms MarkObjects: 121.718148 ms  DeleteObjects: 0.277730 ms)
+
+Am I Host? True
+02/26/2025 01:59:04: Available space to current user: 215257567232. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/26/2025 01:59:04: Sending message to save player profiles
+02/26/2025 01:59:04: PrepareSave: clone done in 65ms
+02/26/2025 01:59:04: PrepareSave: ZDOExtraData.PrepareSave done in 85 ms
+02/26/2025 01:59:04: World save writing starting
+02/26/2025 01:59:04: World save writing started
+02/26/2025 01:59:05: Saved 385722 ZDOs
+02/26/2025 01:59:05: World save writing finishing
+02/26/2025 01:59:05: World save writing finished
+02/26/2025 01:59:05: World saved ( 1011.948ms )
+02/26/2025 01:59:05: Considering autobackup. World time: 86417.7, short time: 7200, long time: 43200, backup count: 4
+02/26/2025 01:59:05: No autobackup needed yet...
+Am I Host? True
+02/26/2025 02:02:02: Update PlayFab entity token
+02/26/2025 02:08:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/26/2025 02:11:07: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/26/2025 02:18:32: Update PlayFab entity token
+02/26/2025 02:18:32: Renew PlayFab entity token
+02/26/2025 02:18:32: PlayFab local entity ID D744ED1FBC92A191 lifetime extended 
+02/26/2025 02:18:47:  Connections 0 ZDOS:385722  sent:0 recv:0
+02/26/2025 02:22:46: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/26/2025 02:27:42: PlayFab listen socket child connected to remote player 29937F6393150847
+02/26/2025 02:27:42: Player joined server "Thy Quaint Little Village" that has join code 886564, now 1 player(s)
+02/26/2025 02:27:42: ZRpc timeout set to 90s 
+02/26/2025 02:27:42: Muted PlayFab remote player 29937F6393150847
+02/26/2025 02:27:42: PlayFab socket with remote ID playfab/29937F6393150847 received local Platform ID Steam_76561199101594123
+02/26/2025 02:27:42: Got handshake from client playfab/29937F6393150847
+02/26/2025 02:27:45: Network version check, their:32, mine:32
+02/26/2025 02:27:45: Server: New peer connected,sending global keys
+02/26/2025 02:28:00: Got character ZDOID from FaRtQuAd : 807241783:5
+02/26/2025 02:28:00: Console: <color=orange>FaRtQuAd</color>: <color=#FFEB04FF>I HAVE ARRIVED!</color>
+02/26/2025 02:28:32: Console: <color=orange>FaRtQuAd</color>: <color=#FFFFFFFF></color>
+02/26/2025 02:28:47:  Connections 1 ZDOS:385739  sent:0 recv:460
+Am I Host? True
+02/26/2025 02:29:04: Available space to current user: 215256469504. Saving is blocked if below: 39520282 bytes. Warnings are given if below: 79040564
+02/26/2025 02:29:04: Sending message to save player profiles
+02/26/2025 02:29:04: Sent to playfab/29937F6393150847
+02/26/2025 02:29:04: PrepareSave: clone done in 75ms
+02/26/2025 02:29:04: PrepareSave: ZDOExtraData.PrepareSave done in 79 ms
+02/26/2025 02:29:04: World save writing starting
+02/26/2025 02:29:04: World save writing started
+02/26/2025 02:29:05: Saved 385725 ZDOs
+02/26/2025 02:29:05: World save writing finishing
+02/26/2025 02:29:06: World save writing finished
+02/26/2025 02:29:06: World saved ( 1056.912ms )
+02/26/2025 02:29:06: Considering autobackup. World time: 88218.18, short time: 7200, long time: 43200, backup count: 4
+02/26/2025 02:29:06: No autobackup needed yet...
+Am I Host? True
+02/26/2025 02:32:58: Lobby d2da47a7-f3f3-447e-8e4e-40661231fdeb.r-20230509 for world 'Thy Quaint Little Village' and network c635fc09-91a7-4861-b70c-a804b1de076a|AwCb3xyKajysDI5JMITVzVBSRlbeeE5vcnRoQ2VudHJhbFVzAAAAAAAAenpOzK1HsZ7ePtMtjxuHubUyCSBiJgZOFAOCr+G4UKQwClNkbnMtaXIwLTgxZTUtMjI5YWFiMTMtODFmZi00MGUzLWI3ODktOGRkNGIxNzE3MDc5Lm5vcnRoY2VudHJhbHVzLmNsb3VkYXBwLmF6dXJlLmNvbQ== refreshed
+02/26/2025 02:36:25: Keep socket for playfab/29937F6393150847, try to reconnect before timeout
+02/26/2025 02:36:25: Player connection lost server "Thy Quaint Little Village" that has join code 886564, now 1 player(s)
+02/26/2025 02:36:25: RPC_Disconnect
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1279 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1443 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1379 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1281 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1428 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1445 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1006 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1239 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1238 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1236 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1280 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:5 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1446 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1240 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1235 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1241 owner 807241783
+02/26/2025 02:36:25: Destroying abandoned non persistent zdo 807241783:1444 owner 807241783
+ZPlayFabSocket::Dispose. State: CONNECTED
+ZPlayFabSocket::Dispose. leave lobby. LobbyId: 
+ZPlayFabSocket::Dispose. State: CLOSED
+02/26/2025 02:37:28: Update PlayFab entity token
+02/26/2025 02:38:47:  Connections 0 ZDOS:385703  sent:0 recv:0
