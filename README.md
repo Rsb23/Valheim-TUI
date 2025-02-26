@@ -1,0 +1,2 @@
+# Valheim-TUI (Terminal UI)
+Simple program that allows a user to run a command and see current information about their valheim server such as uptime, player count, player list, join code, external ip/port, and options to configure the bannedlist.txt, adminlist.txt, and permittedlist.txt.
