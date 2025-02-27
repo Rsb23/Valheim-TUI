@@ -46,49 +46,43 @@ class InterpretData():
             match_new_character = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: Got character ZDOID from")                
             
             if match_world_name.match(line):
-                print(f"Loaded World: {match_world_name.match(line).groups()[1]}")
+                world_name = match_world_name.match(line).groups()[1]
             
             elif match_server_steam_ID.match(line):
-                print(f"Server Steam ID: {match_server_steam_ID.match(line).groups()[1]}")
+                server_steam_ID = match_server_steam_ID.match(line).groups()[1]
             
             elif match_server_ID.match(line):
-                print(f"Server ID: {match_server_ID.match(line).groups()[1]}")
+                server_ID = match_server_ID.match(line).groups()[1]
 
             elif match_valheim_version.match(line):
-                print(f"Valheim Version: {match_valheim_version.match(line).groups()[1]}")
+                valheim_version = match_valheim_version.match(line).groups()[1]
 
                 match_network_version = re.compile("(network version )(.*)(\))")
-                print(f"Network Version: {match_network_version.search(line).groups()[1]}")
+                network_version = match_network_version.search(line).groups()[1]
 
             elif match_server_start.match(line):
                 result_match_join_code = match_join_code.search(line)
                 if result_match_join_code:
-                    print(f"Join Code: {result_match_join_code.group()}")
+                    join_code = result_match_join_code.group()
 
                 result_match_ip = match_ip.search(line)
                 if result_match_ip:
-                    print(f"External IP/PORT: {result_match_ip.group()}")
+                    ip_port = result_match_ip.group()
 
                 result_match_players = match_players.search(line)
                 if result_match_players:
                     result_match_players_count = match_players_count.match(line)
                     if result_match_players_count:
-                        print(f"Starting Players: {result_match_players_count.group().strip()}")
+                        starting_players = result_match_players_count.group().strip()
 
             elif match_new_player.match(line):
                 playfab_ID = match_playfab_ID.search(line).group()
                 steam_ID = match_steam_ID.search(line).group()
-                print(f"New Player")
-                print(f"\tPlayFab ID: {playfab_ID}")
-                print(f"\tSteam   ID: {steam_ID}")
-            
+
             elif match_new_character.match(line):
-                print(f"Character Name: {match_character_name.search(line).groups()[0]}")
+                character_name = match_character_name.search(line).groups()[0]
         
-        return (match_world_name.match(line).groups()[1], match_server_steam_ID.match(line).groups()[1], 
-                match_server_ID.match(line).groups()[1], match_valheim_version.match(line).groups()[1], 
-                match_network_version.search(line).groups()[1], result_match_join_code.group(),
-                result_match_ip.group(), result_match_players_count.group().strip())
+        return (world_name, server_steam_ID, server_ID, valheim_version, network_version, join_code, ip_port, starting_players)
 
         
     def get_players(self) -> int:
