@@ -51,9 +51,7 @@ class InterpretData():
             match_server_start = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: Session \"Thy Quaint Little Village\" with")
             
             match_new_player = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: PlayFab socket with remote ID playfab")
-            match_new_character = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: Got character ZDOID from")
-            
-            match_world_saved = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: World saved")
+            match_new_character = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: Got character ZDOID from")                
             
             if match_world_name.match(line):
                 print(f"Loaded World: {match_world_name.match(line).groups()[1]}")
@@ -94,39 +92,61 @@ class InterpretData():
             
             elif match_new_character.match(line):
                 print(f"Character Name: {match_character_name.search(line).groups()[0]}")
-            
-            elif match_connections.match(line):
-                results_match_connections = match_connections.search(line)
-                if results_match_connections:
-                    results_match_connections_count = match_connections_count.search(line)
-                    if results_match_connections_count:
-                        print(f"Players: {results_match_connections_count.group().strip()}")
-            
-            elif match_world_saved.match(line):
-                world_save_timestamp = match_timestamp.match(line).group()
-                print(f"World Last Saved: {world_save_timestamp}")
         
-        def get_player_count(self) -> int:
-            player_count = 0
+    def get_players(self) -> int:
+        player_playfab_ids = []
+        player_steam_ids = []
+        character_names = []
 
-            match_connections = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]:  Connections")
-            match_connections_count = re.compile(" [0-10] ")
-            
-            with open(self.filePath, "r") as file:
-                fileLines = file.readlines()
-                file.close()
-
-            for line in fileLines:
-                if match_connections.match(line):
-                    player_count = int(match_connections_count.search(line).group().strip())
-            
-            return player_count
+        match_connections = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]:  Connections")
+        match_connections_count = re.compile(" [0-10] ")
 
 
 
-            
+        with open(self.filePath, "r") as file:
+            fileLines = file.readlines()
+            file.close()
+
+        for line in fileLines:
+            if match_connections.match(line):
+                player_count = int(match_connections_count.search(line).group().strip())
+        
+    def get_connection_count(self) -> int:
+        player_count = 0
+
+        match_connections = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]:  Connections")
+        match_connections_count = re.compile(" [0-10] ")
+        
+        with open(self.filePath, "r") as file:
+            fileLines = file.readlines()
+            file.close()
+
+        for line in fileLines:
+            if match_connections.match(line):
+                player_count = int(match_connections_count.search(line).group().strip())
+        
+        return player_count
+
+    def get_last_save(self) -> str:
+        last_save = ""
+
+        match_world_saved = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: World saved")
+        match_timestamp = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]")
+
+        with open(self.filePath, "r") as file:
+            fileLines = file.readlines()
+            file.close()
+        
+        for line in fileLines:
+            if match_world_saved.match(line):
+                last_save = match_timestamp.match(line).group()
+
+        return last_save
 
 
 _InterpretData = InterpretData("/home/r34_runna/Documents/python/Valheim-TUI/samplelog.txt")
-_InterpretData.get_data()
-print(_InterpretData.get_player_count())
+print("-"*25)
+_InterpretData.get_start_data()
+print("-"*25)
+print(f"Current Connections: {_InterpretData.get_connection_count()}")
+print(f"Last Save: {_InterpretData.get_last_save()}")
