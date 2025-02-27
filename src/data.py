@@ -4,16 +4,8 @@ import re
 class InterpretData():
     def __init__(self, pathToData: str) -> None:
         self.filePath = pathToData
-
-        # global variables that will remain static, the dynamic ones are given individual functions so they can be called more often because they change the only the most recent one is the true one, no point in storing variables for that
-        self.loaded_world_name = ""
-        self.server_steam_ID = ""
-        self.valheim_version = ""
-        self.network_version = ""
-        self.join_code = ""
-        self.external_ip_port = ""
     
-    def get_start_data(self) -> list:
+    def get_start_data(self) -> tuple:
         """
         
         """
@@ -93,6 +85,12 @@ class InterpretData():
             elif match_new_character.match(line):
                 print(f"Character Name: {match_character_name.search(line).groups()[0]}")
         
+        return (match_world_name.match(line).groups()[1], match_server_steam_ID.match(line).groups()[1], 
+                match_server_ID.match(line).groups()[1], match_valheim_version.match(line).groups()[1], 
+                match_network_version.search(line).groups()[1], result_match_join_code.group(),
+                result_match_ip.group(), result_match_players_count.group().strip())
+
+        
     def get_players(self) -> int:
         player_playfab_ids = []
         player_steam_ids = []
@@ -142,11 +140,3 @@ class InterpretData():
                 last_save = match_timestamp.match(line).group()
 
         return last_save
-
-
-_InterpretData = InterpretData("/home/r34_runna/Documents/python/Valheim-TUI/samplelog.txt")
-print("-"*25)
-_InterpretData.get_start_data()
-print("-"*25)
-print(f"Current Connections: {_InterpretData.get_connection_count()}")
-print(f"Last Save: {_InterpretData.get_last_save()}")
