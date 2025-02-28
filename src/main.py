@@ -18,7 +18,6 @@ class StatusApp(App):
         self._InterpretData = InterpretData("./samplelog.txt")
 
         self.server_start_data = self._InterpretData.get_start_data()
-        self.player_count = self._InterpretData.get_connection_count()
 
         self.theme = "tokyo-night"
 
@@ -37,7 +36,7 @@ class StatusApp(App):
                 yield Label(f"Join Code: {self.server_start_data[5]}")
                 yield Label(f"External IP/PORT: {self.server_start_data[6]}")
 
-        with Collapsible(title=f"Connected Players: {self.player_count}", id="players_collapsible", disabled=True):  # TODO: update this automatically with get_connection_count()       
+        with Collapsible(title=f"Connected Players: {self._InterpretData.get_connection_count()}", id="players_collapsible", disabled=True):  # TODO: update this automatically with get_connection_count()       
             pass  # TODO: call get_players() and add collapsible for each with labels for name, playfab id, and steam id
 
         # https://stackoverflow.com/questions/78814860/adding-status-text-to-a-textual-footer
@@ -47,14 +46,32 @@ class StatusApp(App):
             yield Label(f"Last Updated: {datetime.now().time()}", id="last_updated_label")  # TODO: update automatically
         
     def on_mount(self) -> None:
-        self.player_count = 0  # TESTING
+        self.set_interval(1 / 60, self.update_all)
 
-        if self.player_count > 0:
+    def update_all(self) -> None:
+        self.update_player_count()
+        # TODO: add more here
+
+        self.update_last_updated_label()
+    
+    def update_player_count(self) -> None:
+        player_count = self._InterpretData.get_connection_count()
+
+        if player_count > 0:
             self.get_widget_by_id("players_collapsible").disabled = False
-        elif self.player_count == 0:
+            # self.update_player_list() TODO: implement
+        elif player_count == 0:
             self.get_widget_by_id("players_collapsible").disabled = True
         else:
             raise ValueError("Can't have negative players!")
+    
+    def update_player_list(self) -> None:
+        pass
+
+    def update_last_updated_label(self) -> None:
+        self.get_widget_by_id("last_updated_label").update(f"Last Updated: {datetime.now().time()}")
+
+
 
     
 if __name__ == "__main__":
