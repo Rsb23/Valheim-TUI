@@ -1,0 +1,31 @@
+Screen {
+    align: center middle;
+}
+
+Digits {
+    width: auto;
+}
+
+#title_1_label {
+    text-align: center;
+    align: center middle;
+}
+
+#title_2_label {
+    text-align: center;
+    align: center middle;
+}
+
+Horizontal#footer_outer {
+    height: 1;
+    dock: bottom;
+}
+
+Horizonal#footer_inner {
+    width: 75%;
+}
+
+Label#last_updated_label {
+    width: 22%;
+    text-align: center;
+}
