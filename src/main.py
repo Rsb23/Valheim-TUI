@@ -49,7 +49,7 @@ class StatusApp(App):
             yield Label("Server Uptime: ", id="server_uptime_label")  # this gets updated later by update_server_uptime()
         
     def on_mount(self) -> None:
-        self.set_interval(1, self.update_all)
+        self.set_interval(1 / 30, self.update_all)
     
     def update_all(self) -> None:
         self.update_player_count()
@@ -79,7 +79,7 @@ class StatusApp(App):
 
         for index, playfab_id in enumerate(data[0]):
             if len(data[0]) != 0:    
-                vertical_group.mount(Label(f"{data[2][index]} - {data[1][index]} - {data[0][index]}"))  # name, steam_id, playfab_id, TODO: maybe make this another collapsible with the name as title and ids under
+                vertical_group.mount(Label(f"{data[2][index]} - Joined: {data[3][index]} - Connection Time: {datetime.now() - datetime.strptime(data[3][index], '%m/%d/%Y %H:%M:%S')} -  {data[1][index]} - {data[0][index]}"))  # name, join time, connection time (derived from join time), steam_id, playfab_id, TODO: maybe make this another collapsible with the name as title and ids under
     
     def update_server_uptime(self) -> None:
         self.get_widget_by_id("server_uptime_label").update(f"Server Uptime: {datetime.now() - datetime.strptime(self.server_start_timestamp, '%m/%d/%Y %H:%M:%S')}")
