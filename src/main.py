@@ -27,6 +27,9 @@ class StatusApp(App):
         yield Static(text2art("Valheim"), id="title_1_label")
         yield Static(text2art("Server Dashboard"), id="title_2_label")    
         with Collapsible(title="General"):
+            yield Label(f"Server Started: {self.server_start_timestamp}", id="server_started_label")
+            yield Label("Server Uptime: ", id="server_uptime_label")  # updated later by update_server_uptime()
+            yield Label("\n")
             with Collapsible(title="Server Details"):
                 yield Label(f"Loaded World: {self.server_start_data[0]}")
                 yield Label(f"Server Steam ID: {self.server_start_data[1]}")
@@ -45,9 +48,7 @@ class StatusApp(App):
             with Horizontal(id="footer_inner"):
                 yield Footer()
             yield Label(f"Last Updated: {datetime.now().time()}", id="last_updated_label")
-            yield Label(f"Server Started: {self.server_start_timestamp}", id="server_started_label")
-            yield Label("Server Uptime: ", id="server_uptime_label")  # this gets updated later by update_server_uptime()
-        
+                    
     def on_mount(self) -> None:
         self.set_interval(1 / 30, self.update_all)
     

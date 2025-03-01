@@ -32,13 +32,3 @@ Label#last_updated_label {
     width: 15%;
     text-align: center;
 }
-
-Label#server_started_label {
-    width: 15%;
-    text-align: center;
-}
-
-Label#server_uptime_label {
-    width: 15%;
-    text-align: center;
-}
