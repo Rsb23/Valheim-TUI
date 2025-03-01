@@ -5,7 +5,7 @@ from data import InterpretData
 from art import text2art
 
 from textual.app import App, ComposeResult
-from textual.containers import Horizontal
+from textual.containers import Horizontal, VerticalGroup
 from textual.widgets import Collapsible, Label, Header, Footer, Static
 
 
@@ -37,8 +37,8 @@ class StatusApp(App):
                 yield Label(f"Join Code: {self.server_start_data[5]}")
                 yield Label(f"External IP/PORT: {self.server_start_data[6]}")
 
-        with Collapsible(title=f"Connected Players: {self._InterpretData.get_connection_count()}", id="players_collapsible", disabled=True):  # TODO: update this automatically with get_connection_count()       
-            pass  # start empty
+        with Collapsible(title=f"Connected Players: {self._InterpretData.get_connection_count()}", id="players_collapsible", disabled=True):      
+            yield VerticalGroup(id="players_vertical_group")
 
         # https://stackoverflow.com/questions/78814860/adding-status-text-to-a-textual-footer
         with Horizontal(id="footer_outer"):
@@ -50,13 +50,7 @@ class StatusApp(App):
         
     def on_mount(self) -> None:
         self.set_interval(1, self.update_all)
-
-    def convert_timestamp_to_datetime(timestamp: str) -> datetime:
-        pass
     
-    def update_server_uptime(self) -> None:
-        self.get_widget_by_id("server_uptime_label").update(f"Server Uptime: {datetime.now() - datetime.strptime(self.server_start_timestamp, '%m/%d/%Y %H:%M:%S')}")
-
     def update_all(self) -> None:
         self.update_player_count()
         self.update_server_uptime()
@@ -64,6 +58,8 @@ class StatusApp(App):
     
     def update_player_count(self) -> None:
         player_count = self._InterpretData.get_connection_count()
+
+        self.query_one("#players_collapsible").title = f"Connected Players: {player_count}"
 
         if player_count > 0:
             self.get_widget_by_id("players_collapsible").disabled = False
@@ -74,17 +70,20 @@ class StatusApp(App):
             raise ValueError("Can't have negative players!")
     
     def update_player_list(self):
-        # format should follow: name, playfab id, steam id
         data = self._InterpretData.get_players()
 
-        # clear players_collapsible before adding players (again)
-        # self.query_one("#players_collapsible", Collapsible).remove_children()
+        vertical_group = self.query_one("#players_vertical_group", VerticalGroup)
+
+        # clear players_collapsible of possible previous before adding current players
+        vertical_group.remove_children()
 
         for index, playfab_id in enumerate(data[0]):
             if len(data[0]) != 0:    
-                with self.get_widget_by_id("players_collapsible"):
-                    yield Label(f"{data[2][index]} - {data[1][index]} - {data[0][index]}")  # name, steam_id, playfab_id, TODO: maybe make this another collapsible with the name as title and ids under
-
+                vertical_group.mount(Label(f"{data[2][index]} - {data[1][index]} - {data[0][index]}"))  # name, steam_id, playfab_id, TODO: maybe make this another collapsible with the name as title and ids under
+    
+    def update_server_uptime(self) -> None:
+        self.get_widget_by_id("server_uptime_label").update(f"Server Uptime: {datetime.now() - datetime.strptime(self.server_start_timestamp, '%m/%d/%Y %H:%M:%S')}")
+    
     def update_last_updated_label(self) -> None:
         self.get_widget_by_id("last_updated_label").update(f"Last Updated: {datetime.now().time()}")
 
