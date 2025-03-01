@@ -15,9 +15,10 @@ class StatusApp(App):
     def __init__(self, driver_class = None, css_path = None, watch_css = False, ansi_color = False):
         super().__init__(driver_class, css_path, watch_css, ansi_color)    
 
-        self._InterpretData = InterpretData("./samplelog.txt")
+        self._InterpretData = InterpretData("./samplelog2.txt")  # FOR TESTING: use samplelog2.txt for 1 player connection, and samplelog.txt for no players connected
 
         self.server_start_data = self._InterpretData.get_start_data()
+        self.server_start_timestamp = self.server_start_data[7]
 
         self.theme = "tokyo-night"
 
@@ -37,21 +38,28 @@ class StatusApp(App):
                 yield Label(f"External IP/PORT: {self.server_start_data[6]}")
 
         with Collapsible(title=f"Connected Players: {self._InterpretData.get_connection_count()}", id="players_collapsible", disabled=True):  # TODO: update this automatically with get_connection_count()       
-            pass  # TODO: call get_players() and add collapsible for each with labels for name, playfab id, and steam id
+            pass  # start empty
 
         # https://stackoverflow.com/questions/78814860/adding-status-text-to-a-textual-footer
         with Horizontal(id="footer_outer"):
             with Horizontal(id="footer_inner"):
                 yield Footer()
-            yield Label(f"Last Updated: {datetime.now().time()}", id="last_updated_label")  # TODO: update automatically
+            yield Label(f"Last Updated: {datetime.now().time()}", id="last_updated_label")
+            yield Label(f"Server Started: {self.server_start_timestamp}", id="server_started_label")
+            yield Label("Server Uptime: ", id="server_uptime_label")  # this gets updated later by update_server_uptime()
         
     def on_mount(self) -> None:
-        self.set_interval(1 / 60, self.update_all)
+        self.set_interval(1, self.update_all)
+
+    def convert_timestamp_to_datetime(timestamp: str) -> datetime:
+        pass
+    
+    def update_server_uptime(self) -> None:
+        self.get_widget_by_id("server_uptime_label").update(f"Server Uptime: {datetime.now() - datetime.strptime(self.server_start_timestamp, '%m/%d/%Y %H:%M:%S')}")
 
     def update_all(self) -> None:
         self.update_player_count()
-        # TODO: add more here
-
+        self.update_server_uptime()
         self.update_last_updated_label()
     
     def update_player_count(self) -> None:
@@ -59,19 +67,26 @@ class StatusApp(App):
 
         if player_count > 0:
             self.get_widget_by_id("players_collapsible").disabled = False
-            # self.update_player_list() TODO: implement
+            self.update_player_list()
         elif player_count == 0:
             self.get_widget_by_id("players_collapsible").disabled = True
         else:
             raise ValueError("Can't have negative players!")
     
-    def update_player_list(self) -> None:
-        pass
+    def update_player_list(self):
+        # format should follow: name, playfab id, steam id
+        data = self._InterpretData.get_players()
+
+        # clear players_collapsible before adding players (again)
+        # self.query_one("#players_collapsible", Collapsible).remove_children()
+
+        for index, playfab_id in enumerate(data[0]):
+            if len(data[0]) != 0:    
+                with self.get_widget_by_id("players_collapsible"):
+                    yield Label(f"{data[2][index]} - {data[1][index]} - {data[0][index]}")  # name, steam_id, playfab_id, TODO: maybe make this another collapsible with the name as title and ids under
 
     def update_last_updated_label(self) -> None:
         self.get_widget_by_id("last_updated_label").update(f"Last Updated: {datetime.now().time()}")
-
-
 
     
 if __name__ == "__main__":

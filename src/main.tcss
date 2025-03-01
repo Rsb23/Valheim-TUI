@@ -24,8 +24,21 @@ Horizontal#footer_outer {
 Horizonal#footer_inner {
     width: 75%;
 }
+#footer_inner {
+    layout: horizontal;
+}
 
 Label#last_updated_label {
-    width: 22%;
+    width: 15%;
+    text-align: center;
+}
+
+Label#server_started_label {
+    width: 15%;
+    text-align: center;
+}
+
+Label#server_uptime_label {
+    width: 15%;
     text-align: center;
 }
