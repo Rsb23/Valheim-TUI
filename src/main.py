@@ -7,6 +7,7 @@ from art import text2art
 from textual.app import App, ComposeResult
 from textual.containers import Horizontal, VerticalGroup
 from textual.widgets import Collapsible, Label, Header, Footer, Static
+from textual.color import Color
 
 
 class StatusApp(App):
@@ -27,8 +28,8 @@ class StatusApp(App):
         yield Static(text2art("Valheim"), id="title_1_label")
         yield Static(text2art("Server Dashboard"), id="title_2_label")    
         with Collapsible(title="General"):
-            yield Label(f"Server Started: {self.server_start_timestamp}", id="server_started_label")
-            yield Label("Server Uptime: ", id="server_uptime_label")  # updated later by update_server_uptime()
+            yield Label(f"Started: {self.server_start_timestamp}", id="server_started_label")
+            yield Label("Uptime: ", id="server_uptime_label")  # updated later by update_server_uptime()
             yield Label("\n")
             with Collapsible(title="Server Details"):
                 yield Label(f"Loaded World: {self.server_start_data[0]}")
@@ -79,8 +80,8 @@ class StatusApp(App):
         vertical_group.remove_children()
 
         for index, playfab_id in enumerate(data[0]):
-            if len(data[0]) != 0:    
-                vertical_group.mount(Label(f"{data[2][index]} - Joined: {data[3][index]} - Connection Time: {datetime.now() - datetime.strptime(data[3][index], '%m/%d/%Y %H:%M:%S')} -  {data[1][index]} - {data[0][index]}"))  # name, join time, connection time (derived from join time), steam_id, playfab_id, TODO: maybe make this another collapsible with the name as title and ids under
+            if len(data[0]) != 0:                    
+                vertical_group.mount(Label(f"{data[2][index]}\n\tJoined: {data[3][index]}\n\tPlaying For: {datetime.now() - datetime.strptime(data[3][index], '%m/%d/%Y %H:%M:%S')}\n\tSteam ID: {data[1][index]}\n\tPlayfab ID: {data[0][index]}", classes="player_info_label"))  # name, join time, connection time (derived from join time), steam_id, playfab_id, TODO: maybe make this another collapsible with the name as title and ids under)
     
     def update_server_uptime(self) -> None:
         self.get_widget_by_id("server_uptime_label").update(f"Server Uptime: {datetime.now() - datetime.strptime(self.server_start_timestamp, '%m/%d/%Y %H:%M:%S')}")
