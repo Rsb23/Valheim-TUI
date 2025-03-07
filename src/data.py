@@ -17,15 +17,15 @@ class InterpretData():
             match_join_code = re.compile("[0-9][0-9][0-9][0-9][0-9][0-9]")
             match_ip = re.compile("[0-9][0-9].[0-9][0-9].[0-9][0-9][0-9].[0-9][0-9][0-9]:[0-9][0-9][0-9][0-9]")
 
-            match_timestamp = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]") 
+            match_timestamp = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-9]:[0-5][0-9]:[0-5][0-9]") 
 
-            match_world_name = re.compile("([0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: Get create world )(.*)")
-            match_server_steam_ID = re.compile("([0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: Using steam APPID:)(.*)")
-            match_server_ID = re.compile("([0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: Server ID )(.*)")
-            match_valheim_version = re.compile("([0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: Valheim version: )(.*) (\(network version [0-9][0-9]\))")
+            match_world_name = re.compile("([0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-9]:[0-5][0-9]:[0-5][0-9]: Get create world )(.*)")
+            match_server_steam_ID = re.compile("([0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-9]:[0-5][0-9]:[0-5][0-9]: Using steam APPID:)(.*)")
+            match_server_ID = re.compile("([0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-9]:[0-5][0-9]:[0-5][0-9]: Server ID )(.*)")
+            match_valheim_version = re.compile("([0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-9]:[0-5][0-9]:[0-5][0-9]: Valheim version: )(.*) (\(network version [0-9][0-9]\))")
 
             # main regex pattern
-            match_server_start = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: Session \"Thy Quaint Little Village\" with")             
+            match_server_start = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-9]:[0-5][0-9]:[0-5][0-9]: Session \"Thy Quaint Little Village\" with")             
             
             if match_world_name.match(line):
                 world_name = match_world_name.match(line).groups()[1]
@@ -62,15 +62,15 @@ class InterpretData():
         character_names = []
         join_times = []
         
-        match_player_join = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: PlayFab socket with remote ID playfab")
-        match_player_leave = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: Keep socket for playfab/")
+        match_player_join = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-9]:[0-5][0-9]:[0-5][0-9]: PlayFab socket with remote ID playfab")
+        match_player_leave = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-9]:[0-5][0-9]:[0-5][0-9]: Keep socket for playfab/")
         
-        match_playfab_ID = re.compile("[0-9][0-9][0-9][0-9][0-9][A-Z][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]")
+        match_playfab_ID = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-9]:[0-5][0-9]:[0-5][0-9]: (PlayFab socket with remote ID playfab/)(.*)( received local Platform ID)")
         match_steam_ID = re.compile("[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]")
         
-        match_new_character = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: Got character ZDOID from")    
+        match_new_character = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-9]:[0-5][0-9]:[0-5][0-9]: Got character ZDOID from")    
         match_character_name = re.compile("(?<=Got character ZDOID from )(.*)( :)")
-        match_timestamp = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]")
+        match_timestamp = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-9]:[0-5][0-9]:[0-5][0-9]")
 
         with open(self.filePath, "r") as file:
             fileLines = file.readlines()
@@ -78,7 +78,7 @@ class InterpretData():
 
         for line in fileLines:
              if match_player_join.match(line):
-                 player_playfab_ids.append(match_playfab_ID.search(line).group())
+                 player_playfab_ids.append(match_playfab_ID.search(line).groups()[1])
                  player_steam_ids.append(match_steam_ID.search(line).group())
                  join_times.append(match_timestamp.search(line).group())
              elif match_new_character.match(line):
@@ -97,7 +97,7 @@ class InterpretData():
     def get_connection_count(self) -> int:
         player_count = 0
 
-        match_connections = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]:  Connections")
+        match_connections = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-9]:[0-5][0-9]:[0-5][0-9]:  Connections")
         match_connections_count = re.compile(" [0-10] ")
         
         with open(self.filePath, "r") as file:
@@ -113,8 +113,8 @@ class InterpretData():
     def get_last_save(self) -> str:
         last_save = ""
 
-        match_world_saved = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]: World saved")
-        match_timestamp = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-2]:[0-5][0-9]:[0-5][0-9]")
+        match_world_saved = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-9]:[0-5][0-9]:[0-5][0-9]: World saved")
+        match_timestamp = re.compile("[0-1][0-9]/[0-3][0-9]/202[5-9] [0-2][0-9]:[0-5][0-9]:[0-5][0-9]")
 
         with open(self.filePath, "r") as file:
             fileLines = file.readlines()
@@ -125,3 +125,6 @@ class InterpretData():
                 last_save = match_timestamp.match(line).group()
 
         return last_save
+
+_InterpretData = InterpretData("samplelog3.txt")
+print(_InterpretData.get_players())
