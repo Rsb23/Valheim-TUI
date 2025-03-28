@@ -126,5 +126,5 @@ class InterpretData():
 
         return last_save
 
-_InterpretData = InterpretData("samplelog3.txt")
+_InterpretData = InterpretData("samplelog2.txt")
 print(_InterpretData.get_players())
